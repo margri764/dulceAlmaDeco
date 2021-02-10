@@ -17,15 +17,15 @@
      
     </div>
    
-   
+   <br>
  
 
     <div>
    
-        <h2 class="text-center m-3" >Productos Seleccionados</h2>
+        <h2 class="text-center" >Productos Seleccionados</h2>
       </div> 
 
-    
+      <br>
           
           <div
 
@@ -45,10 +45,10 @@
             
             
          
-           <div class=" ">{{line.producto.nombre}}</div>
-           <div class=" "> {{line.producto.precio | currency:"USD":true:"2.2-2"}} </div> 
+           <div>{{line.producto.nombre}}</div>
+           <div> {{line.producto.precio | currency:"USD":true:"2.2-2"}} </div> 
           
-           <div class=" ">    
+           <div>    
               
                <a routerLink="/carrito" (click)="cart.removeLine(line.producto.id)"> 
                  <span class="material-icons ">
