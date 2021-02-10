@@ -54,15 +54,20 @@
   background-color: darkorange;
   width: 100%;
   text-align: center;
-  /* height: 50px; */
- 
-  
+   
+}
+h6 {
+  font-size: 3vh;
+}
+
+h2{
+  font-size: 30vh;
 }
 
 input{
         width: 7vh; 
         font-family:'ribeye';
-        font-size: 1.5vh;
+        font-size: 2vh;
         border-color:rgb(255, 255, 254);
 
         /* margin: 1vh; */
@@ -70,28 +75,29 @@ input{
         /* align-items: center; */
 }
 
-#titulo{
-  font-size: 30px;
-  margin-left: 20px;
 
-}
+#variables{
 
-.variables{
-
-  text-align: left;
+ 
   font-family:'ribeye';
-  font-size: 1.5vh;
+  font-size: 2vh;
 
 }
-/* .col-3{
 
-} */
+img{
+
+  
+  width: 100%;
+}
+
+/* ---------------------------------------@media------------------------------------------ */
+
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 576px) {
 
-  
+
 
  .material-icons {
   
@@ -100,8 +106,20 @@ input{
   line-height: 1;
  }
 
+ .variables{
 
+  /* text-align: left;
+  font-family:'ribeye'; */
+  font-size: 1.5vh;
 
+}
+.precio{
+    font-size: 2vh;
+}
+
+h2{
+  font-size: 2.5vh;
+}
 
 }
   
