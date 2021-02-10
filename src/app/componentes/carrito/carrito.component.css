@@ -45,20 +45,27 @@
   font-size: 2vh;
 }
 
- #font h2 {
+ #font h2{
   font-size: 3vh;
 }
 
 #carrito{
 
   background-color: darkorange;
+  width: 100%;
+  text-align: center;
   /* height: 50px; */
  
   
 }
 
 input{
-        width: 5vh; 
+        width: 7vh; 
+        font-family:'ribeye';
+        font-size: 1.5vh;
+        border-color:rgb(255, 255, 254);
+
+        /* margin: 1vh; */
       
         /* align-items: center; */
 }
@@ -69,28 +76,22 @@ input{
 
 }
 
+.variables{
 
+  text-align: left;
+  font-family:'ribeye';
+  font-size: 1.5vh;
+
+}
+/* .col-3{
+
+} */
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 576px) {
 
-  /* #font{
-      font-family:'ribeye';
-      font-size: 10px;
-   
-    }
-h2{
-
-  font-size: 16px;
-
-}
-
-#titulo{
-  font-size: 16px;
-  margin-left: 20px;
-
- } */
+  
 
  .material-icons {
   
