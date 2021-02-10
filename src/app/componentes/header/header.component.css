@@ -7,7 +7,11 @@
 
   }
 
+  /* #fa{
 
+    height: 10%;
+
+  }  */
   img{
 
   
@@ -49,7 +53,7 @@
 }
 
 .fa-1x {
-  font-size: 26px !important;
+  font-size: 3vh !important;
   float:right;
   margin-right: 16px;
   margin-top: 25px;
@@ -57,7 +61,7 @@
 }
 
 .fa-1x:hover {
-  font-size: 26px !important;
+  font-size: 3vh !important;
   margin-top: 25px;
   color:rgb(248, 207, 180);
 }
@@ -72,20 +76,6 @@
 
  
 
-  .fa-1x {
-    font-size: 12px !important;
-    float:right;
-    margin-right: 6px;
-    margin-top: 15px;
-    color:rgb(110, 110, 108);
-  }
-  
-  .fa-1x:hover {
-    font-size: 12px !important;
-    margin-top: 15px;
-    color:rgb(248, 207, 180);
-  }
-
 
 
 }
@@ -94,6 +84,8 @@
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
+
+   
   
   }
   
