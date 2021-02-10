@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
-import { Cart } from 'src/app/model/cart.model';
-import { ServarrayfotosService } from 'src/app/servicios/servarrayfotos.service';
+import { Cart } from '../../model/cart.model';
+import { ServarrayfotosService } from '../../servicios/servarrayfotos.service';
 import { CarritoComponent } from '../carrito/carrito.component';
 
 @Component({
@@ -9,6 +9,8 @@ import { CarritoComponent } from '../carrito/carrito.component';
   templateUrl: './sellos.component.html',
   styleUrls: ['./sellos.component.css']
 })
+
+
 export class SellosComponent implements OnInit {
   arrayProductos : any []=[];
   numero : any;  
