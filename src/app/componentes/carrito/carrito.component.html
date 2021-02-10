@@ -2,12 +2,12 @@
 
 
 <br>
-<div class="container" id="font">
+
     
-    <div  id="carrito" class=" d-flex flex-row justify-content-start text-white ">
+    <div  id="carrito" class=" d-flex flex-row justify-content-start text-white " id="font">
      
       
-      <div id="titulo" > <b> Carro de Compras</b></div> 
+        <span id="titulo" > <b> Carro de Compras</b> </span>
        
      
     </div>
@@ -15,65 +15,49 @@
    
     <br>
 
-    
+    <div id="font">
    
         <h2 class="text-center m-3" >Productos Seleccionados</h2>
-        
-        <div class="table-responsive ">
-        <table class="table table-hover table-borderless" >
+      </div> 
+
+        <div class="">
           
-          <thead>
-          <tr class="text-center " >
-            <th>Cantidad</th><th>Productos</th><th>Precio</th><th>Subtotal</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr *ngIf="cart.lines.length === 0">
-            <td colspan="4" class="text-center" >
+          <div
+
+           *ngIf="cart.lines.length === 0"
+            colspan="4" class="text-center" >
               <h2 id="font">Carrito Vacio!!</h2>
-            </td>
-          </tr>
-          <tr *ngFor="let line of cart.lines">
-            <td >
-              <input type="number" class="form-control-sm "
-              style="width: 4em; align-items: center;" [value]="line.quantity"
+          
+         
+        </div>
+
+        <div class="d-flex flex-row align-items-center justify-content-around" *ngFor="let line of cart.lines" id="font">
+          
+          
+              <input type="number" class="form-control-sm" [value]="line.quantity"
                (change)="cart.updateQuantity(line.producto, $event.target.value)">
-            </td> 
+          
             
-            <td>
-              {{line.producto.nombre}}
-            </td>
-            <td class="text-center">
-              {{line.producto.precio | currency:"USD":true:"2.2-2"}}
-            </td>
-            <td class="text-center">
+            
+         
+           {{line.producto.nombre}}  {{line.producto.precio | currency:"USD":true:"2.2-2"}} 
+          
+                 
               
-            {{line.lineTotal| currency:"USD":true:"2.2-2"}}
-            </td>
-            <td class="text-center">
-              
-               <a routerLink="/carrito" (click)="cart.removeLine(line.producto.id)"> 
+               <!-- <a routerLink="/carrito" (click)="cart.removeLine(line.producto.id)"> 
                  <span class="material-icons ">
                   delete_forever
                   </span>
-                </a> 
+                </a>  -->
 
-              </td>
-              
+                     
                           
              
-              </tr>
-              </tbody>
-              <tfoot >
-              <tr>
-                <td colspan="3" class="text-right">Total:</td>
-                <td class="text-center">
-                  {{cart.cartPrice | currency:"USD":true:"2.2-2"}}
-                </td>
-              </tr>
-              </tfoot>
-            </table>
-          
+       
+                  
+          </div>
+          <div>{{cart.cartPrice | currency:"USD":true:"2.2-2"}}</div>
+            
           </div>
      
       
@@ -98,11 +82,10 @@
 
         
          
-          </div>
+         
 
-        </div>
+     
  
- 
-
+      </div>
     
     
