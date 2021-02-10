@@ -1,0 +1,119 @@
+
+
+ .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+.material-icons:hover{
+
+    color:red;
+  
+}
+/* @font-face{
+  font-family: VivaBeautiful;
+  src: url(/assets/font/VivaBeautiful.ttf) format("opentype");
+} */
+
+@font-face {
+  font-family:'ribeye';
+  src: url(/assets/font/Ribeye-Regular.ttf);
+   
+}
+
+#font{
+  font-family:'ribeye';
+  font-size: 16px;
+}
+
+#carrito{
+
+  background-color: darkorange;
+  /* height: 50px; */
+ 
+
+}
+#titulo{
+  font-size: 30px;
+  margin-left: 20px;
+
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+
+  #font{
+      font-family:'ribeye';
+      font-size: 10px;
+   
+    }
+h2{
+
+  font-size: 16px;
+
+}
+
+#titulo{
+  font-size: 16px;
+  margin-left: 20px;
+
+ }
+
+ .material-icons {
+  
+  font-size: 30px;  /* Preferred icon size */
+  
+  line-height: 1;
+ }
+
+ button{
+
+    
+ }
+
+
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  
+  
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+  
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1280px) {
+   
+  
+  }

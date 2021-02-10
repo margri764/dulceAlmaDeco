@@ -1,0 +1,123 @@
+
+ .material-icons {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 50px;  /* Preferred icon size */
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+        color:rgb(253, 38, 38);
+
+                     /* Support for all WebKit browsers. */
+              -webkit-font-smoothing: antialiased;
+              /* Support for Safari and Chrome. */
+              text-rendering: optimizeLegibility;
+              
+              /* Support for Firefox. */
+              -moz-osx-font-smoothing: grayscale;
+              
+              /* Support for IE. */
+              font-feature-settings: 'liga';
+       }
+      
+.material-icons:hover {
+
+       color:rgb(77, 252, 100);
+       }
+   
+.nombre{
+
+       max-width: 460px;
+       margin-top: 10px;
+       background-color: coral;
+
+}
+
+
+#imag{
+      
+    
+       width:100% ;
+    
+
+}
+
+.contenedor{
+
+                margin-top: 20px;
+        
+                
+              
+       
+   
+}
+.col-sm-5{
+               
+                margin-bottom: 50px;
+                
+   
+}
+.col-sm-7{
+              
+                margin-bottom: 50px;
+                border: 2px solid rgb(221, 221, 221)
+
+}
+
+.parrafo{
+         margin-bottom: 80px;
+         
+        
+}
+
+
+.example-header-image {
+background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+background-size: cover;
+}
+
+
+#imag:hover{
+
+      margin-top: 1px;
+      box-shadow: 2px 2px 3px rgb(243, 170, 170);
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+/* img:hover{
+
+   
+      
+        padding-right: 1px;
+        box-shadow: 1px 1px 2px rgb(243, 170, 170);
+
+} */

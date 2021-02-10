@@ -1,0 +1,30 @@
+
+.container{
+               
+              margin-top: 20px;
+              /* background-color: blue;  */
+}
+#span{
+        margin-top: 30px;
+        background-color: blue; 
+
+}
+
+#nombre{
+        width: 300px;
+        margin-top: 20px;
+        /* background-color: darkblue; */
+}
+
+
+
+
+#mas{
+        width: 300px;
+                        
+}
+
+#mas:hover{
+
+        background-color: darkorange;
+}

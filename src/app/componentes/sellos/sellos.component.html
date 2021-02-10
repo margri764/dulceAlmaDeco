@@ -1,0 +1,46 @@
+
+
+
+    <div class="flex-container" fxLayout="row" fxLayout.xs="column"  fxLayoutGap.md="1px"  
+            fxLayoutAlign.lg="space-between center" fxLayoutAlign.md="space-between center" 
+            >
+            <div *ngFor = "let producto of arrayProductos, index as i">
+            
+            <mat-card id='font' >
+
+            <mat-card-header >
+
+                <mat-card-title>{{producto.nombre}}</mat-card-title>
+            
+            </mat-card-header>
+
+            <img id ="imag"  [src]="producto.img" alt="producto.nombre" >
+            
+            <mat-card-content class="text-dark">
+            <b style="font-size: 20px;"> $ {{producto.precio}} </b>
+            </mat-card-content>
+
+            <br>
+            
+              
+            <div>
+               <a   [routerLink]="['/verdetalle',i]" >
+               <h3 class="vermas text-center text-white">VER <b>MÁS </b> </h3> 
+               </a> 
+              </div>
+             
+              <div>
+                <a  [routerLink] title="carrito"  (click)="addBook(producto);onCreate()" >
+                 <span class="material-icons"  >  shopping_cart </span>
+              </a> 
+               </div>
+
+
+
+
+
+
+             </mat-card>
+            </div>
+        </div>
+    

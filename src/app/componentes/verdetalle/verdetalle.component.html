@@ -1,0 +1,62 @@
+   
+      
+  <div class="row contenedor"  >
+            
+    <div class="col-sm-5">
+           
+      <img id ="imag" [src]='arrProductos.img' alt={{arrProductos.nombre}}>
+                   
+
+       </div> 
+
+   
+    <div class="col-sm-7 text-center"> 
+      <br>
+      <h1>{{arrProductos.nombre}}</h1>
+    <br>
+    <p> MEDIDAS: 30 x 20 cm </p>
+     <p>   OBSERVACIONES: Vidrio opcional</p>
+  
+   <br>
+     <br>
+      <h2>Precio: $ {{arrProductos.precio}}</h2>
+
+      <a routerLink="/carrito"> <span class="material-icons " (click)="addBook(arrProductos)" >
+          shopping_cart  </span> </a> 
+      
+     
+          
+  
+</div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+  <!-- CARRITO -->
+
+    <!-- <div class="container-fluid">
+
+      <cart-summary></cart-summary>
+  
+       <div *ngFor="let book of books" >
+     
+            <div class="card-text bg-white p-1">
+              <button class="btn btn-success btn-sm float-left"
+                      (click)="addBookToCart(book)">
+                Add to Cart
+              </button>
+            </div>
+         
+    </div>
+  </div> -->
+  
+                        <!-- CARRITO -->
