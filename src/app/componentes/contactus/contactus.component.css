@@ -1,27 +1,27 @@
+
+
 @font-face {
     font-family:'ribeye';
     src: url(/assets/font/Ribeye-Regular.ttf);
      
   }
   
+  
 
   
-  :focus{
+  /* :focus{
    
       outline:none;
   }
-  
-  body{
-      background: #DBDBDB;
-      font-family: 'Open sans';
-  }
+   */
+
   
   /* FORMULARIO =================================== */
   
   .form_wrap{
-      width: 98%;
+      width: 90%;
       height: 98%;
-      margin: 50px auto;
+      margin: 10px auto;
       display: flex;
   
       background: #fff;
@@ -143,7 +143,7 @@
       font-weight: 400;
   }
   
-  form.form_contact textarea{
+  /* form.form_contact textarea{
       max-width: 100%;
       min-width: 100%;
       max-height: 90px;
@@ -163,14 +163,14 @@
       font-size: 16px;
       font-weight: 600;
       cursor: pointer;
-  }
+  } */
   
-  form.form_contact input[type="button"]:hover{
+  /* form.form_contact input[type="button"]:hover{
       background: #41ee41;
-  }
+  } */
   
   /* Ventana de errores*/
-  .modal_wrap{
+  /* .modal_wrap{
       width: 100%;
       height: 100vh;
       background: rgba(0,0,0,0.7);
@@ -183,9 +183,9 @@
       display: flex;
       justify-content: center;
       align-items: center;
-  }
+  } */
   
-  .mensaje_modal{
+  /* .mensaje_modal{
       background: #fff;
       box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
       width: 400px;
@@ -206,9 +206,9 @@
       height: 1px;
       background: #C5C5C5;
       margin: 10px 0px 15px;
-  }
+  } */
   
-  .mensaje_modal p{
+  /* .mensaje_modal p{
       font-size: 16px;
       color: #606060;
   }
@@ -219,7 +219,7 @@
       display: inline-block;
       color: #E25151;
       margin-right: 8px;
-  }
+  } */
   
   #btnClose{
       display: inline-block;
@@ -235,32 +235,17 @@
   
 
 
-/* ----------------------------@media------------------------------------  */
+/* -----------------------------------------------------@media-------------------------------------------  */
     
     /* Small devices (portrait tablets and large phones, 600px and up) */
     @media only screen and (max-width: 574px) {
     
-         
-        
-        
+              
         
         .contact_xs{
 
             display:block;
         }
-
-        .contact_xs .form_wrap{
-          
-                width: 99vw;
-                height: 20vh;
-                /* margin-top: 10px; */
-                display: flex;
-                background: #fff;
-                border-radius: 20px;
-               
-            
-        }
-
 
         .contact_xs h2{
 
@@ -283,16 +268,24 @@
             margin-left: 10px;
         }
 
-        .contact_xs .form_wrap{
+        .contact_xs.form_wrap{
 
             width: 99vw;
-            height: 30px;
+            height: 22vh;
             margin-top: 10px;
             display: flex;
         
             background: #fff;
             border-radius: 30px;
 
+
+        }
+
+
+        .form_wrap{
+
+            width: 99%;
+            height: 90%;
 
         }
 
@@ -306,7 +299,13 @@
             display: none;
         }
         
+        #font{
 
+            font-family:'ribeye';
+            font-size: 2vh;
+          
+          
+          }
 
         
        
@@ -317,23 +316,34 @@
    
     @media only screen and (min-width: 575px) and (max-width: 768px){
     
-        .contact_xs{
-            display: none;
-
-        }
+      
         
-        .contact_xs .form_wrap{
+        .contact_xs.form_wrap{
             width: 99%;
-            /* height: 98%; */
+            height: 98%;
             margin-top: 10px;
             display: flex;
-        
+            display: none;
             background: #fff;
             border-radius: 20px;
+            
          
         }
 
+        .form_wrap{
 
+            width: 99%;
+            height: 90%;
+
+        }
+
+        #font{
+
+            font-family:'ribeye';
+            font-size: 4vh;
+          
+          
+          }
     }
     
     /* Large devices (laptops/desktops, 992px and up) */
