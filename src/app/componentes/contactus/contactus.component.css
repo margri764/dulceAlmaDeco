@@ -9,7 +9,7 @@
   #font{
 
     font-family:'ribeye';
-    font-size: 2vh;
+    font-size: 3vh;
   
   
   }
@@ -247,7 +247,7 @@
     /* Small devices (portrait tablets and large phones, 600px and up) */
     @media only screen and (max-width: 574px) {
     
-              
+  
         
         .contact_xs{
 
@@ -275,18 +275,12 @@
             margin-left: 10px;
         }
 
-        .contact_xs.form_wrap{
+        .contact_xs{
 
             width: 99vw;
             height: 22vh;
             margin-top: 10px;
-            display: flex;
-        
-            background: #fff;
-            border-radius: 30px;
-
-
-        }
+          }
 
 
         .form_wrap{
@@ -331,15 +325,13 @@
             margin-bottom: 10px;
         }
         
-        .contact_xs.form_wrap{
+        .contact_xs{
             width: 99%;
             height: 98%;
             margin-top: 10px;
             display: flex;
             display: none;
-            background: #fff;
-            border-radius: 20px;
-            
+                
          
         }
 
@@ -366,7 +358,13 @@
 
             display: none;
         }
+        #font{
 
+            font-family:'ribeye';
+            font-size: 4vh;
+          
+          
+          }
     
     }
     
