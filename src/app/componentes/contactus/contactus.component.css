@@ -6,7 +6,14 @@
      
   }
   
+  #font{
+
+    font-family:'ribeye';
+    font-size: 2vh;
   
+  
+  }
+
 
   
   /* :focus{
@@ -72,21 +79,21 @@
   }
   
   .info_title span{
-      font-size: 4vh;
+      font-size: 5vh;
       display: block;
       text-align: center;
       margin-bottom: 15px;
   }
   
   .info_title h2{
-      font-size: 6vh;
+      font-size: 5vh;
       text-align: center;
   }
   
   .info_items p{
       display: flex;
       align-items: center;
-      font-size: 16px;
+      font-size: 2.5vh;
       font-weight: 400;
       margin-bottom: 10px;
   }
@@ -316,7 +323,13 @@
    
     @media only screen and (min-width: 575px) and (max-width: 768px){
     
-      
+        .info_items p{
+            display: flex;
+            align-items: center;
+            font-size: 3.5vh;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
         
         .contact_xs.form_wrap{
             width: 99%;
