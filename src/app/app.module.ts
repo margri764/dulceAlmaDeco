@@ -37,12 +37,14 @@ import { CarritoComponent } from './componentes/carrito/carrito.component';
 import { ContactusComponent } from './componentes/contactus/contactus.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { InputControlComponent } from './input-control/input-control.component';
+import { TallerComponent } from './componentes/taller/taller.component';
 
 
 //rutas
   const routes: Routes = [  
   { path: 'navbar', component: NavbarComponent },  
-  // { path: 'input-control', component: InputControlComponent },  
+  { path: 'taller', component: TallerComponent }, 
+  { path: 'input-control', component: InputControlComponent },  
   { path: 'contactus', component: ContactusComponent },    
   { path: 'fofacil', component: FofacilComponent }, 
   { path: 'verdetalle/:id', component: VerdetalleComponent }, 
@@ -81,6 +83,7 @@ import { InputControlComponent } from './input-control/input-control.component';
     CarritoComponent,
     ContactusComponent,
     NavbarComponent,
+    TallerComponent,
    
  
   

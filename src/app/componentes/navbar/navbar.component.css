@@ -1,19 +1,18 @@
 
 /* NAVBAR */
 
-/* #font{
+#font{
   font-family:'cream';
   font-size: 2vh;
 
-} */
+}
 
 
 .navbar{
     background-color:white;
     width: 100vw;
     
-  
-    
+     
   }
   
   .navbar:hover{
@@ -51,25 +50,7 @@
       /* font-size: 2vh; */
      }
   
-    
-     
-  /* SLIDERS */
-  
-  
-  #fotos{
-      
-          height: 100%;
-  
-        }
-
-  .carousel {
-
-      width: 100%;
-      padding: 1px;
-
-  }
-
-
+         
 
 
   .mat-badge-content {
@@ -113,6 +94,11 @@
     color:rgb(248, 207, 180);
    
 }
+
+a{
+  text-decoration: none;
+}
+
 
 .fa-1x {
   font-size: 26px !important;
@@ -203,13 +189,28 @@
   
 
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 575px)and (max-width: 768px) {
+  @media only screen and (min-width: 575px) and (max-width: 768px) {
   
+
+    #font{
+      font-family:'cream';
+      font-size: 4vh;
+    
+    }
+
     .dropdown-menu{
     
     
       width: 40vw;
    }
+
+   /* .dropdown-item{
+  
+    font-family:'cream';
+    font-size: 4vh; 
+   } */
+
+
    .dropdown-item:hover{
   
     font-family:'cream';
@@ -222,17 +223,3 @@
   
   }
   
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1280px) {
-   
-  
-  }
-
-      /* DESAPARECE EL SLIDER EN RESOLUCIONES MENORES A 600px  */
-      @media only screen and (max-width: 600px) {
-     
-        #fotos {
-          display: none;
-          }
-      }
-      

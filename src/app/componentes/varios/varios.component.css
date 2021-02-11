@@ -1,0 +1,17 @@
+#fotos{
+      
+    height: 100%;
+
+  }
+
+.carousel {
+
+width: 100%;
+padding: 1px;
+
+}
+
+/* DESAPARECE EL SLIDER EN RESOLUCIONES MENORES A 600px  */
+/* #fotos {
+    display: none;
+    } */
