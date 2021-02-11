@@ -45,12 +45,11 @@
             <a class="nav-link text-dark" href="#">Contacto</a>
           </li>
         
-         <!-- <div class=".d-inline .d-sm-none"> -->
-          <!-- <div class="compra"> -->
+
             <div class="d-flex flex-row justify-content-center compra" >
             
                 <div>
-                  <a  title="carrito"  routerLink="/carrito"  >
+                  <a  title="carrito"   (click)="onCreate()" >
                     <span class="material-icons float-end">shopping_cart </span>  
                 </a>
              
@@ -60,7 +59,6 @@
               <div class="mt-2" *ngFor="let line of cart.lines">
                 <span  *ngIf="cart.lines.length != 0" 
                 matBadge= "{{line.quantity}}" matBadgeOverlap="false" matBadgePosition="before" >   
-                <!-- matBadge= "" matBadgeOverlap="false" matBadgePosition="after" >    -->
                 
               </span>  
               </div>

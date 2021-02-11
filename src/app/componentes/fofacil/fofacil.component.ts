@@ -51,6 +51,7 @@ export class FofacilComponent implements OnInit {
       dialogConfig.disableClose=true
       dialogConfig.autoFocus=true
       dialogConfig.width="100%"
+      dialogConfig.height="100%"
       this.dialog.open(CarritoComponent,dialogConfig)
      }
 
