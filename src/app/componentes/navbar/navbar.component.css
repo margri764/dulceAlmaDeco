@@ -1,11 +1,11 @@
 
 /* NAVBAR */
 
-#font{
+/* #font{
   font-family:'cream';
-  font-size: 18px;
+  font-size: 2vh;
 
-}
+} */
 
 
 .navbar{
@@ -35,22 +35,20 @@
     color: white; 
     font-size: medium;
     font-family:'cream';
-    font-size: 18px;
+    font-size: 2vh;
     
     
   }
   
-  /* .container{
-        align-self: start;
-  }
-  
-  */
-     
+ .dropdown-menu{
+
+    width: 25vw;
+ }
   .dropdown-item:hover{
   
       background-color: coral;
       font-weight: bold;
-      font-size: 18px;
+      /* font-size: 2vh; */
      }
   
     
@@ -59,8 +57,7 @@
   
   
   #fotos{
-  
-          /* margin-top: 20px; */
+      
           height: 100%;
   
         }
@@ -132,20 +129,26 @@
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 576px) {
+/* ------------------------------------@media------------------------------------- */
 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 574px) {
+
+  .dropdown-menu{
+
+    width: 68vw;
+ }
 
   #font{
     font-family:'cream';
-    font-size: 10px;
+    font-size: 2vh;
   
   }
 
   .material-icons{
 
     font-size: 20px;
-    
     margin:auto;
     margin-top: 16px;
 
@@ -172,7 +175,7 @@
 
   .navbar-brand{
     
-      font-size: 10px ;
+      font-size: 2vh ;
   }
 
   .nav-item:hover{
@@ -182,44 +185,36 @@
     color: white; 
     font-size: medium;
     font-family:'cream';
-    font-size: 10px;
+    font-size: 2vh;
   
   }
 
-  .dropdown-item:hover{
-  
-    background-color: coral;
-    font-weight: bold;
-    font-size: 10px;
-   }
-
-   .dropdown-item{
-  
-      font-size: 10px;
-   }
-
+ 
   
   
   .navbar-toggler-icon {
 
-    font-size:12px;  /* Preferred icon size */
+    font-size:3vh;  /* Preferred icon size */
   
  
   }
   
-
-
 }
   
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-  
-  
-  }
-  
+
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 575px)and (max-width: 768px) {
   
+    .dropdown-menu{
+    
+    
+      width: 40vw;
+   }
+   .dropdown-item:hover{
+  
+    font-family:'cream';
+    font-size: 4vh; 
+   }
   }
   
   /* Large devices (laptops/desktops, 992px and up) */

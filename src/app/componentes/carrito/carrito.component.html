@@ -5,10 +5,10 @@
  
 <br>
     
-    <div  id="carrito" class="text-white " >
+    <div  id="carrito" class="d-flex text-white align-items-center justify-content-center" >
      
       
-        <h6 class="text-center"> <b> Carro de Compras</b> </h6>
+        <h6> Carro de Compras </h6>
        
      
     </div>
@@ -27,15 +27,18 @@
 
            *ngIf="cart.lines.length === 0"
             colspan="4" class="text-center" >
-              <h2 id="font">Carrito Vacio!!</h2>
+              
+            <h2>Carrito Vacio!!</h2>
           
-         
+         <br>
         </div >
+
         <div class="container">
 
         <!-- <div class="d-flex justify-content-around" id="font" *ngFor="let line of cart.lines" > -->
           <div class="row" id="font" *ngFor="let line of cart.lines" >
-          <div class="col-3">
+          
+            <div class="col-3">
               <input type="number" [value]="line.quantity"
                (change)="cart.updateQuantity(line.producto, $event.target.value)">
             </div>
