@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { Cart } from '../../model/cart.model';
 import { ServarrayfotosService } from '../../servicios/servarrayfotos.service';
-import { CarritoComponent } from '../carrito/carrito.component';
+
 
 @Component({
   selector: 'app-sellos',
@@ -18,8 +17,7 @@ export class SellosComponent implements OnInit {
 
           constructor(  private _servicio :  ServarrayfotosService, 
                         public cart : Cart,
-                        private dialog : MatDialog
-                    
+                                         
                       ) 
       
             {
@@ -46,13 +44,7 @@ export class SellosComponent implements OnInit {
   }
 
  
- onCreate(){
-  const dialogConfig=new MatDialogConfig()
-  dialogConfig.disableClose=true
-  dialogConfig.autoFocus=true
-  dialogConfig.width="60%"
-  this.dialog.open(CarritoComponent,dialogConfig)
- }
+ 
 
 
 
