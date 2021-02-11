@@ -1,33 +1,90 @@
- 
     
+      
+         <mat-card class="contact_xs form_wrap">   
+      
+            <div class="flex-container contact_xs" fxLayout="row" fxLayout.xs="column"  fxLayoutGap.md="1px"  
+      fxLayoutAlign.lg="space-between center" fxLayoutAlign.md="space-between center" 
+      >
+   
      
-<div class="container">
+      
+      <mat-card-content >
+      
+     
+        
+           
+            <h2 class=""> <b>INFORMACION DE CONTACTO </b></h2>
+       
+        <div class="d-flex flex-column contact_xs">
+            <p ><span class="fa fa-envelope"> </span> katy_barrozzo99@gmail.com</p>
+            <p><span class="fa fa-mobile"><span class="fab fa-whatsapp"></span> 2302 41 6035</span> </p>
+
+
+        </div>
+  
+ 
+
+
+      </mat-card-content>
+ 
+
+    </div>
+
+</mat-card>  
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
     <section class="form_wrap" id="font">
+
+        
+
+     
 
         <section class="cantact_info ">
             <section class="info_title ">
                 <span class="fa fa-user-circle"></span>
+               
                 <h2>INFORMACION<br>DE CONTACTO</h2>
             </section>
-            <!-- <section class="info_items">
-                <p class="text-dark"><span class="fa fa-envelope"></span> katy_barrozzo99@gmail.com</p>
-                <p class="text-dark"><span class="fa fa-mobile"><span class="fab fa-whatsapp"></span> 2302 41 6035</span> </p>
+            <section class="info_items">
+                <p ><span class="fa fa-envelope"></span> katy_barrozzo99@gmail.com</p>
+                <p ><span class="fa fa-mobile"><span class="fab fa-whatsapp"></span> 2302 41 6035</span> </p>
     
   
-            </section> -->
+            </section>
+      
         </section>
   
 
-            <!-- [formGroup]="contactForm"  (ngSubmit)="onSaveForm(form)" -->
+
          
-            <form  (ngSubmit)="contactForm(form.value)" #form="ngForm" id="form" class="form_contact"> 
+            <form  (ngSubmit)="contactForm(form.value)" #form="ngForm" id="form" class="form_contact" id="font"> 
           
             <h2>Procesar Compra</h2>
          
             
 
             
-                <!-- formControlName="nombre" -->
+         
            
                 <label>Nombres *</label>
                 <input type="text"  class="form-control" name="nombre" ngModel >
@@ -73,8 +130,7 @@
                 
     </section>
   
-</div>
-      
+
   
 
     
