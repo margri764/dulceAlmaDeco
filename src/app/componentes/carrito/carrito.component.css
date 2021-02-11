@@ -95,7 +95,7 @@ img{
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 576px) {
 
 
 
@@ -105,24 +105,10 @@ img{
   
   line-height: 1;
  }
-
-<<<<<<< HEAD
- .variables{
-
-  /* text-align: left;
-  font-family:'ribeye'; */
-  font-size: 1.5vh;
-
+ #font{
+  font-family:'ribeye';
+  font-size: 2vh;
 }
-.precio{
-    font-size: 2vh;
-}
-
-h2{
-  font-size: 2.5vh;
-}
-=======
->>>>>>> contactus-responsivo
 
 }
   

@@ -36,7 +36,7 @@
          
         </div>
 
-        <div class="d-flex justify-content-between" id="variables" *ngFor="let line of cart.lines" >
+        <div class="d-flex justify-content-between" id="font" *ngFor="let line of cart.lines" >
           
           <div >
               <input type="number" [value]="line.quantity"
@@ -62,7 +62,7 @@
        <br><br><br>
                   
           </div>
-          <div class="precio"> <b>Total del carrito: {{cart.cartPrice | currency:"USD":true:"2.2-2"}}</b></div>
+          <div class="precio" id="font"> <b>Total del carrito:   {{cart.cartPrice | currency:"USD":true:"2.2-2"}}</b></div>
             
          
      
