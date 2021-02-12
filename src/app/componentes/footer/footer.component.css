@@ -1,8 +1,61 @@
 
-/* 
-.container{
 
-    height: 5vh;
-    background-color: white;
-    width: 100vh;
-} */
+
+
+/* -------------------------------------------@media query------------------------------------ */
+ 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 574px) {
+
+
+    /* #font{
+   
+      font-family:'ribeye';
+      font-size: 15px;
+      color: coral;
+    
+    } */
+    
+     .footer{
+       position: bottom;
+       margin-top: 20vh;
+           
+    } 
+    
+      
+    }
+    
+    
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and(min-width: 575x) and (max-width: 768px) {
+    
+        .footer{
+            position: bottom;
+            margin-top: 20vh;
+                
+         } 
+         
+       
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 769px)and(max-width: 992px) {
+
+        .footer{
+            position: bottom;
+            margin-top: 50vh;
+                
+         } 
+         
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1280px) {
+     
+    }
+    
+    
+    

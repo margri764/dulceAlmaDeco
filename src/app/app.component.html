@@ -1,23 +1,23 @@
 
 
-  
-
     <app-header ></app-header>
+    
+  
 
     <app-navbar *ngIf="!(router.url === '/carrito' || router.url === '/contactus')">
     </app-navbar>
-    
+
     <app-varios *ngIf="!(router.url === '/carrito' || router.url === '/contactus' ||
                          router.url === '/fofacil' || router.url === '/sellos'    ||
                          router.url === '/taller')">   
     </app-varios>
     
-    
+  
      <router-outlet> </router-outlet> 
 
+   
     
+    <app-footer ></app-footer>
  
-    
-    <app-footer></app-footer>
-    
+
 

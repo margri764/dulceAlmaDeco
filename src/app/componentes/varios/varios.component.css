@@ -14,8 +14,8 @@ padding: 1px;
 .carousel-item{
 
     height: 32rem;
-    background: #777;
-    color:black;
+    background: rgb(63, 47, 47);
+    color:rgb(255, 251, 251);
     position:relative;
     background-size: cover;
 
@@ -38,7 +38,7 @@ padding: 1px;
   top: 0;
   background-position: center;
   background-size: cover;
-  opacity: 1;
+  /* opacity:0.5; */
 
 
 
