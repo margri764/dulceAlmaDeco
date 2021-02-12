@@ -1,6 +1,15 @@
 
 
 
+.footer #font{
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  font-size: 3vh;
+ 
+}
 
 /* -------------------------------------------@media query------------------------------------ */
  
@@ -8,20 +17,8 @@
 @media only screen and (max-width: 574px) {
 
 
-    /* #font{
-   
-      font-family:'ribeye';
-      font-size: 15px;
-      color: coral;
     
-    } */
-    
-     .footer{
-       position: bottom;
-       margin-top: 20vh;
-           
-    } 
-    
+  
       
     }
     
@@ -30,24 +27,17 @@
     /* Medium devices (landscape tablets, 768px and up) */
     @media only screen and(min-width: 575x) and (max-width: 768px) {
     
-        .footer{
-            position: bottom;
-            margin-top: 20vh;
-                
-         } 
-         
-       
+    
     
     }
     
     /* Large devices (laptops/desktops, 992px and up) */
-    @media only screen and (min-width: 769px)and(max-width: 992px) {
+    @media only screen and (min-width: 768px)and(max-width: 992px) {
 
-        .footer{
-            position: bottom;
-            margin-top: 50vh;
-                
-         } 
+      
+
+   
+
          
     
     }

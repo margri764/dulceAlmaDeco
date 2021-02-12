@@ -30,6 +30,22 @@
        color:rgb(77, 252, 100);
        }
    
+   
+       #font{
+              font-family:'ribeye';
+              font-size: 2vh;
+            }
+
+       #font h1{
+              font-size: 3vh;  
+       }
+
+       #font h2{
+              font-size: 2.5vh;  
+       }
+              
+
+
 .nombre{
 
        max-width: 460px;
@@ -39,7 +55,7 @@
 }
 
 
-#imag{
+img{
       
     
        width:100% ;
