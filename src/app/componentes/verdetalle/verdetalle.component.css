@@ -11,7 +11,7 @@
         word-wrap: normal;
         white-space: nowrap;
         direction: ltr;
-        color:rgb(253, 38, 38);
+        color:rgb(248, 141, 101);
 
                      /* Support for all WebKit browsers. */
               -webkit-font-smoothing: antialiased;
@@ -25,10 +25,12 @@
               font-feature-settings: 'liga';
        }
       
-.material-icons:hover {
-
-       color:rgb(77, 252, 100);
-       }
+       .material-icons:hover {
+              color: rgb(255, 93, 35);
+              
+              margin-left: 1px;
+            
+            }
    
 .nombre{
 
@@ -109,7 +111,14 @@ img{
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 993px)and (max-width: 100%) {
+@media only screen and (min-width: 993px) {
+
+       #font{
+              font-family:'cream';
+              font-size: 3vh;
+            
+            }
+            
 
 }
 

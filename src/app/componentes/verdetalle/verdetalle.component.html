@@ -8,7 +8,7 @@
             
     <div class="col-sm-5">
            
-      <img [src]='arrProductos.img' alt={{arrProductos.nombre}}>
+      <img [src]='arrProductos.img' alt={{arrProductos.nombre}} >
                    
 
        </div> 
@@ -23,7 +23,7 @@
   
    <br>
      <br>
-      <h2>Precio: $ {{arrProductos.precio}}</h2>
+      <h5>Precio: $ {{arrProductos.precio}}</h5>
 
       <a routerLink="/carrito"> <span class="material-icons " (click)="addBook(arrProductos)" >
           shopping_cart  </span> </a> 
