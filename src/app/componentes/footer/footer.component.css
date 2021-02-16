@@ -5,9 +5,10 @@
 
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   height: 40px;
   font-size: 3vh;
+  padding: 1.5vw;
  
 }
 
