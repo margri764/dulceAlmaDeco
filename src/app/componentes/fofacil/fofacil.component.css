@@ -61,12 +61,12 @@
 
 
 
- .nombre{
+ /* .nombre{
 
                   
            margin-top: 20px;
      
-  }
+  } */
 
   @font-face {
     font-family:'ribeye';
@@ -93,14 +93,7 @@
 
 }
 
-.flex-container{
 
-
-  flex-wrap: wrap;
-  /* margin-top:30p; */
-  margin: 10px;
-  /* width: 100vw; */
-}
 
 
 
@@ -111,7 +104,7 @@
 
   img{
 
-    width: 100vw;
+    width: 97vw;
   
    }
 
