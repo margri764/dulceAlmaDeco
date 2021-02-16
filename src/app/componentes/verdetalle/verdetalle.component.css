@@ -43,27 +43,26 @@
 
 img{
        
-       width:100% ;
+       width:60% ;
+       margin-bottom: 20px;
 }
 
-.contenedor{
+img:hover{
+
+   
+      
+       
+        box-shadow: 5px 5px 10px rgb(100, 97, 97);
+
+}
+
+
+.container{
 
                 margin-top: 20px;
  
 }
-.col-sm-5{
-               
-                margin-bottom: 50px;
-                
-   
-}
-.col-sm-7{
-              
-                margin-bottom: 50px;
-                border: 2px solid rgb(221, 221, 221);
-                
 
-}
 
 .parrafo{
          margin-bottom: 80px;
@@ -85,14 +84,29 @@ background-size: cover;
 }
 
 
+#font{
+       font-family:'ribeye';
+       font-size: 3vh;
+     
+     }
+     
 
-
-
+/* ----------------------------------------@media----------------------------------- */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 574px) {
+@media only screen and (max-width: 574px) {
 
-
+       #font{
+              font-family:'ribeye';
+              font-size: 2vh;
+            
+            }
+            img{
+       
+              width:100% ;
+              margin-bottom: 20px;
+       
+       }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -101,12 +115,32 @@ background-size: cover;
 img{
        
        width:100% ;
+       margin-bottom: 20px;
+
 }
+#font{
+       font-family:'ribeye';
+       font-size: 2vh;
+     
+     }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 769px)and (max-width: 992px){
+
+       img{
+       
+              width:100% ;
+              margin-bottom: 20px;
+       
+       }
+       img{
+       
+              width:100% ;
+              margin-bottom: 20px;
+       
+       }
 
 }
 
@@ -114,21 +148,19 @@ img{
 @media only screen and (min-width: 993px) {
 
        #font{
-              font-family:'cream';
+              font-family:'ribeye';
               font-size: 3vh;
             
             }
+            img{
+       
+              width:50% ;
+              margin-bottom: 20px;
+       
+       }
             
 
 }
 
 
 
-/* img:hover{
-
-   
-      
-        padding-right: 1px;
-        box-shadow: 1px 1px 2px rgb(243, 170, 170);
-
-} */

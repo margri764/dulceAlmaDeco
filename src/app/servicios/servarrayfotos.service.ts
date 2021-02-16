@@ -23,6 +23,12 @@ export class ServarrayfotosService {
   precio:"170"
 },
 {
+  id:10,
+  nombre: "Fondo moderno",
+  img: "assets/fondo.jpg",
+  precio:"1700"
+},
+{
   id:2,
   nombre: "Cajon grande",
   img: "assets/camara2.jpg",
@@ -54,31 +60,31 @@ export class ServarrayfotosService {
       precio:"250"
     },  
     {
-      id:1,
+      id:7,
       nombre: "Masitero c/vidrio2",
       img: "assets/camara1.jpg",
       precio:"170"
     },
     {
-      id:0,
+      id:8,
       nombre: "Set Matero",
       img: "assets/stencil2.jpg",
       precio:"250"
     },
     {
-      id:1,
+      id:9,
       nombre: "Masitero c/vidrio",
       img: "assets/camara1.jpg",
       precio:"170"
     },
     {
-      id:2,
+      id:10,
       nombre: "Cajon grande",
       img: "assets/camara2.jpg",
       precio:"130"
       },
       {
-        id:3,
+        id:11,
         nombre: "Cajon frente",
         img: "assets/camara3.jpg",
         precio:"200"

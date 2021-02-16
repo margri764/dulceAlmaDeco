@@ -78,10 +78,14 @@
     font-size: 16px;
   }
 
-  
+  img{
+
+    width: 30%;
+    height: 30%;
+}
 
  
-  img:hover{
+  img:hover {
            
               /* margin-top: 10px; */
               box-shadow: 5px 2px  rgb(201, 201, 201);
@@ -130,6 +134,7 @@
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+
 
 
   

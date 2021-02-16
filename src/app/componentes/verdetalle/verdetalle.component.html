@@ -2,47 +2,35 @@
       
 
 
+<div class="container">
 
-
-  <div class="row contenedor" id="font" >
+  <div class=" d-flex justify-content-between" id="font" >
             
-    <div class="col-sm-5">
+    <div class="text-center">
            
       <img [src]='arrProductos.img' alt={{arrProductos.nombre}} >
                    
-
-       </div> 
+    </div>
+   
 
    
-    <div class="col-sm-7 text-center"> 
+    <div>
       <br>
-      <h1>{{arrProductos.nombre}}</h1>
+      <h3>{{arrProductos.nombre}}</h3>
     <br>
     <p> MEDIDAS: 30 x 20 cm </p>
      <p> OBSERVACIONES: Vidrio opcional</p>
   
    <br>
      <br>
-      <h5>Precio: $ {{arrProductos.precio}}</h5>
+      <h6>Precio: $ {{arrProductos.precio}}</h6>
 
       <a routerLink="/carrito"> <span class="material-icons " (click)="addBook(arrProductos)" >
           shopping_cart  </span> </a> 
-      
-     
-          
-  
+        </div> 
+     <div>
+ </div>
 </div>
-
-
-
-
-
-
-
-
-
-  </div>
-
 
 
   
