@@ -6,7 +6,7 @@
           background-color: coral;
         
           margin:auto;
-          font-size: 30px;
+          /* font-size: 30px; */
           line-height: 18px;
  }   
 
@@ -14,7 +14,8 @@
 
                 background-color: rgb(243, 97, 39);
                 max-width: 100%;
-                font-size: 15px;
+                font-weight: bold;
+                /* font-size: 15px; */
  }
 
  
@@ -75,14 +76,14 @@
 
   #font{
     font-family:'ribeye';
-    font-size: 3vh;
+    font-size: 2.5vh;
   }
 
   img{
 
     width: 23vw;
   
-}
+   }
 
  
   img:hover {
@@ -96,28 +97,39 @@
 
 
   flex-wrap: wrap;
-  margin-top:20px;
-  padding: 3px;
-  width: 100vw;
+  /* margin-top:30vh; */
+  margin: 3px;
+  /* width: 100vw; */
 }
 
 
 
 /* -------------------------------------------@media query------------------------------------ */
  
+
+@media only screen and (max-width: 573px){
+
+  img{
+
+    width: 100vw;
+  
+   }
+
+}
+
+
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 574px)and (max-width: 768px){
 
+  img{
+
+    width: 40vw;
+  
+   }
 
 
-
-#font{
-
-  font-family:'ribeye';
-  font-size: 15px;
-  color: coral;
-
-}
 
 .material-icons {
 
