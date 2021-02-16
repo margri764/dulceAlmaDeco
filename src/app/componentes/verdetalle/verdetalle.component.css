@@ -30,22 +30,6 @@
        color:rgb(77, 252, 100);
        }
    
-   
-       #font{
-              font-family:'ribeye';
-              font-size: 2vh;
-            }
-
-       #font h1{
-              font-size: 3vh;  
-       }
-
-       #font h2{
-              font-size: 2.5vh;  
-       }
-              
-
-
 .nombre{
 
        max-width: 460px;
@@ -55,7 +39,7 @@
 }
 
 
-img{
+#imag{
       
     
        width:100% ;
@@ -103,6 +87,9 @@ background-size: cover;
       margin-top: 1px;
       box-shadow: 2px 2px 3px rgb(243, 170, 170);
 }
+
+
+
 
 
 

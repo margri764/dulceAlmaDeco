@@ -14,6 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { MatDialogModule,MatDialogRef} from '@angular/material/dialog';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { InputControlModule } from './input-control/input-control.module';
+import * as $ from "jquery";
 
 //servicios y rutas
 import { ServarrayfotosService } from './servicios/servarrayfotos.service'; 
