@@ -2,25 +2,25 @@
 
    <div class="flex-container">
        
-       <div class="d-flex flex-row flex-wrap  align-items-center justify-content-around ">
+       <div class="d-flex flex-row flex-wrap   align-items-center justify-content-around ">
             
-          <div  class="text-center" *ngFor = "let producto of arrayProductos, index as i" >
+          <div   *ngFor = "let producto of arrayProductos, index as i" >
  
          
 
              <img  [src]="producto.img" alt="producto" >
           
               
-                <h3 class="nombre text-dark" id='font'>{{producto.nombre}}</h3>
+                <h3 class="nombre" id='font'>{{producto.nombre}}</h3>
    
                    <span  id='font'>$ {{producto.precio}}</span>
                    
                  
                 
-                  <br>
+               
             
               
-              <div>
+              <!-- <div>
                  <a   [routerLink]="['/verdetalle',i]" >
                  <h3 class="vermas text-center text-white" id='font'>VER <b>MÁS </b> </h3> 
                  </a> 
@@ -30,9 +30,9 @@
                   <a  routerLink="/carrito"  (click)="addBook(producto)" >
                    <span class="material-icons"  >  shopping_cart </span>
                 </a> 
-                 </div>
+                 </div> -->
    
-      </div>
+          </div>
      
      </div>
      
