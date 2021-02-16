@@ -50,6 +50,7 @@ img{
 img:hover{
 
    
+       width:100vw ;
       
        
         box-shadow: 5px 5px 10px rgb(100, 97, 97);
@@ -77,11 +78,7 @@ background-size: cover;
 }
 
 
-#imag:hover{
 
-      margin-top: 1px;
-      box-shadow: 2px 2px 3px rgb(243, 170, 170);
-}
 
 
 #font{
