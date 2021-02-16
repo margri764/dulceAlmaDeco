@@ -2,9 +2,9 @@
       
 
 
-<div class="container">
+<div class="flex-container" id="font">
 
-  <div class=" d-flex justify-content-between" id="font" >
+  <div class="d-flex justify-content-around flex-md-column flex-lg-row flex-xl-row"  >
             
     <div class="text-center">
            
@@ -14,7 +14,7 @@
    
 
    
-    <div>
+    <div class="text-center">
       <br>
       <h3>{{arrProductos.nombre}}</h3>
     <br>
@@ -23,12 +23,14 @@
   
    <br>
      <br>
-      <h6>Precio: $ {{arrProductos.precio}}</h6>
+      <p>Precio: $ {{arrProductos.precio}}</p>
 
       <a routerLink="/carrito"> <span class="material-icons " (click)="addBook(arrProductos)" >
           shopping_cart  </span> </a> 
-        </div> 
-     <div>
+    </div> 
+    
+    
+   
  </div>
 </div>
 

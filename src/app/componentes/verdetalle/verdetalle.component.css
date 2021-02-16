@@ -43,8 +43,8 @@
 
 img{
        
-       width:60% ;
-       margin-bottom: 20px;
+       width:50vw ;
+       /* margin-bottom: 20px; */
 }
 
 img:hover{
@@ -57,7 +57,7 @@ img:hover{
 }
 
 
-.container{
+.flex-container{
 
                 margin-top: 20px;
  
@@ -86,7 +86,7 @@ background-size: cover;
 
 #font{
        font-family:'ribeye';
-       font-size: 3vh;
+       font-size: 2.7vh;
      
      }
      
@@ -96,15 +96,15 @@ background-size: cover;
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 574px) {
 
-       #font{
+       /* #font{
               font-family:'ribeye';
               font-size: 2vh;
             
-            }
+            } */
             img{
        
-              width:100% ;
-              margin-bottom: 20px;
+              width:100vw ;
+              /* margin-bottom: 20px; */
        
        }
 }
@@ -114,50 +114,44 @@ background-size: cover;
        
 img{
        
-       width:100% ;
+       width:97vw ;
        margin-bottom: 20px;
 
 }
-#font{
+/* #font{
        font-family:'ribeye';
        font-size: 2vh;
      
-     }
+     } */
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 769px)and (max-width: 992px){
 
-       img{
+       /* img{
        
-              width:100% ;
-              margin-bottom: 20px;
+              width:50vw ;
        
-       }
-       img{
-       
-              width:100% ;
-              margin-bottom: 20px;
-       
-       }
+       } */
+   
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 993px) {
 
-       #font{
+       /* #font{
               font-family:'ribeye';
               font-size: 3vh;
             
-            }
-            img{
+            } */
+            /* img{
        
               width:50% ;
               margin-bottom: 20px;
        
-       }
+       } */
             
 
 }

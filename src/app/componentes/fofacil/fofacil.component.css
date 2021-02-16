@@ -61,13 +61,6 @@
 
 
 
- /* .nombre{
-
-                  
-           margin-top: 20px;
-     
-  } */
-
   @font-face {
     font-family:'ribeye';
     src: url(/assets/font/Ribeye-Regular.ttf);
@@ -89,7 +82,7 @@
   img:hover {
            
               /* margin-top: 10px; */
-              box-shadow: 5px 2px  rgb(201, 201, 201);
+              box-shadow: 5px 5px 10px rgb(100, 97, 97);
 
 }
 
