@@ -39,22 +39,15 @@
 }
 
 
-#imag{
-      
-    
+img{
+       
        width:100% ;
-    
-
 }
 
 .contenedor{
 
                 margin-top: 20px;
-        
-                
-              
-       
-   
+ 
 }
 .col-sm-5{
                
@@ -65,7 +58,8 @@
 .col-sm-7{
               
                 margin-bottom: 50px;
-                border: 2px solid rgb(221, 221, 221)
+                border: 2px solid rgb(221, 221, 221);
+                
 
 }
 
@@ -94,23 +88,28 @@ background-size: cover;
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 574px) {
 
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 575px)and  (max-width: 768px) {
+       
+img{
+       
+       width:100% ;
+}
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 769px)and (max-width: 992px){
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 993px)and (max-width: 100%) {
 
 }
 
