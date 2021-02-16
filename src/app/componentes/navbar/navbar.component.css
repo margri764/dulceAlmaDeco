@@ -3,7 +3,7 @@
 
 #font{
   font-family:'cream';
-  font-size: 3vh;
+  font-size: 2.7vh;
 
 }
 
@@ -127,15 +127,15 @@ a{
     width: 68vw;
  }
 
-  #font{
+  /* #font{
     font-family:'cream';
     font-size: 2vh;
   
-  }
+  } */
 
   .material-icons{
 
-    font-size: 20px;
+    /* font-size: 20px; */
     margin:auto;
     margin-top: 16px;
 
@@ -181,7 +181,7 @@ a{
   
   .navbar-toggler-icon {
 
-    font-size:3vh;  /* Preferred icon size */
+    font-size:2.7vh;  /* Preferred icon size */
   
  
   }
@@ -193,11 +193,11 @@ a{
   @media only screen and (min-width: 575px) and (max-width: 768px) {
   
 
-    #font{
+    /* #font{
       font-family:'cream';
       font-size: 2.5vh;
     
-    }
+    } */
 
     .dropdown-menu{
     
@@ -212,11 +212,11 @@ a{
    } */
 
 
-   .dropdown-item:hover{
+   /* .dropdown-item:hover{
   
     font-family:'cream';
-    font-size: 4vh; 
-   }
+    font-size: 2.8vh; 
+   } */
   }
   
   /* Large devices (laptops/desktops, 992px and up) */
