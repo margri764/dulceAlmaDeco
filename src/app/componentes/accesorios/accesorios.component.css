@@ -1,30 +1,54 @@
-
-.container{
-               
-              margin-top: 20px;
-              /* background-color: blue;  */
-}
-#span{
-        margin-top: 30px;
-        background-color: blue; 
-
-}
-
-#nombre{
-        width: 300px;
-        margin-top: 20px;
-        /* background-color: darkblue; */
-}
-
-
-
-
-#mas{
-        width: 300px;
-                        
-}
-
-#mas:hover{
-
-        background-color: darkorange;
-}
+@font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+      }
+      .container {
+        width: 200px;
+        height: 200px;
+        /* position: absolute; */
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 20px;
+      }
+      .div-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .div-img.hidden {
+        overflow: hidden;
+      }
+      .div-img .img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+        -webkit-transition: all 500ms ease-in-out;
+        -moz-transition: all 500ms ease-in-out;
+        -ms-transition: all 500ms ease-in-out;
+        -o-transition: all 500ms ease-in-out;
+      }
+      .div-img .text {
+        font-family: 'Open Sans';
+        /* position: absolute; */
+        z-index: -1;
+        display: block;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+      }
+      .div-img:hover .img {
+        transform: translate(0px, -100px);
+        -ms-transform: translate(0px, -100px);
+        -moz-transform: translate(0px, -100px);
+        -webkit-transform: translate(0px, -100px);
+        -o-transform: translate(0px, -100px);
+      }
