@@ -1,10 +1,9 @@
 
-/* NAVBAR */
+
 
 #font{
   font-family:'cream';
   font-size: 2.7vh;
-
 }
 
 
@@ -22,9 +21,9 @@
 
   }
 
+
   .nav-item{
     
-  
     margin-top: 10px;
   }
   
@@ -32,12 +31,7 @@
   
   
     font-weight: bold;
-    color: white; 
-    font-size: medium;
-    font-family:'cream';
-    font-size: 2.7vh;
-    
-    
+      
   }
   
  .dropdown-menu{
@@ -48,7 +42,7 @@
   
       background-color: coral;
       font-weight: bold;
-      /* font-size: 2vh; */
+  
      }
   
          
@@ -93,7 +87,7 @@
 
   .material-icons:hover {
     color:rgb(248, 207, 180);
-    /* margin-left: 18px; */
+   
    
 }
 
@@ -123,20 +117,27 @@ a{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 574px) {
 
+
+  .nav-item{
+    
+      margin-top: 10px;
+  }
+
   .dropdown-menu{
 
     width: 68vw;
  }
 
-  /* #font{
-    font-family:'cream';
-    font-size: 2vh;
+ .dropdown-item:hover{
   
-  } */
+  background-color: coral;
+  font-weight: bold;
+ 
+ }
 
   .material-icons{
 
-    /* font-size: 20px; */
+    
     margin:auto;
     margin-top: 16px;
 
@@ -157,48 +158,22 @@ a{
 }
 
 
-
   
-/* navbar */
-
-  .navbar-brand{
-    
-      font-size: 2vh ;
-  }
-
-  .nav-item:hover{
-  
-    /* font-style: oblique; */
-    font-weight: bold;
-    color: white; 
-    font-size: medium;
-    font-family:'cream';
-    font-size: 2vh;
-  
-  }
-
- 
-  
-  
-  .navbar-toggler-icon {
-
-    font-size:2.7vh;  /* Preferred icon size */
-  
- 
-  }
   
 }
   
 
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 575px) and (max-width: 768px) {
+  @media only screen and (min-width: 575px) and (max-width: 767px) {
   
 
-    /* #font{
-      font-family:'cream';
-      font-size: 2.5vh;
+    .nav-item{
     
-    } */
+      font-family:'cream';
+      font-size: 4vh;
+    }
+
+  
 
     .dropdown-menu{
     
@@ -206,22 +181,26 @@ a{
       width: 40vw;
    }
 
-   /* .dropdown-item{
-  
-    font-family:'cream';
-    font-size: 4vh; 
-   } */
 
-
-   /* .dropdown-item:hover{
-  
-    font-family:'cream';
-    font-size: 2.8vh; 
-   } */
   }
   
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .nav-item{
+    
+      font-family:'cream';
+      font-size: 2.5vh;
+    }
+
+  
+
+    .dropdown-menu{
+    
+    
+      width: 40vw;
+   }
+
   
   }
   

@@ -17,9 +17,56 @@ body{
     background-color: rgb(245, 227, 220);
     overflow-x: hidden;
     margin: 0;
-    margin-bottom: 50vh;   
+    margin-bottom: 10vh;   
      
 }
 
+/* -------------------------------------------@media query------------------------------------ */
+ 
 
+@media only screen and (max-width: 573px){
+
+    body{
+     
+        margin-bottom: 10vh;   
+         
+    }
+
+}
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 574px)and (max-width: 767px){
+  
+
+    body{
+     
+        margin-bottom: 50vh;   
+         
+    }
+    
+  }
+   
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px)and (max-width: 992px) {
+    body{
+     
+        margin-bottom: 20vh;   
+         
+    }
+      
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  
+    body{
+     
+        margin-bottom: 50vh;   
+         
+    }
+  }
+  
+  
+  
+  
+  
 
