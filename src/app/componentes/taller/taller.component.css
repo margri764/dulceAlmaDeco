@@ -113,21 +113,33 @@
 
     .div-img .img {
       
-        width: 90vw;
+        width: 50vw;
     }
   
-  }
+  
   
   .div-img:hover .text {
    
     -webkit-transform: translate(0px, 0px) scale(1.5);
+  }
+
   }
   
   
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (min-width: 574px)and (max-width: 768px){
   
-  
+    .div-img .img {
+      
+      width: 30vw;
+  }
+
+
+
+.div-img:hover .text {
+ 
+  -webkit-transform: translate(0px, 0px) scale(2);
+}
   
     
   }
