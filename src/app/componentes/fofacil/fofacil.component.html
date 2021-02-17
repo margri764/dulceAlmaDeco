@@ -4,32 +4,28 @@
        
        <div class="d-flex flex-row flex-wrap   align-items-center justify-content-around ">
             
-          <div class="text-center mt-5"  *ngFor = "let producto of arrayProductos, index as i" >
+          <div class=" div-img text-center mt-5"  *ngFor = "let producto of arrayProductos, index as i" >
  
          
-
-             <img  [src]="producto.img" alt="producto" >
+           
+             <img class="img" [src]="producto.img" alt="producto" >
           
               
-                <p  >{{producto.nombre}}</p>
-   
-                   <span  >$ {{producto.precio}}</span>
-                   
-                 
-                
-               
+                                      
             
               
-              <div>
+              <div class="text" id="font">
+               <p  >{{producto.nombre}} $ {{producto.precio}}</p>
+   
+               <!-- <p></p> -->
+           
                  <a   [routerLink]="['/verdetalle',i]" >
-                 <p class="vermas text-center text-white mt-4" >VER <b>MÁS </b> </p> 
+                 <p class="vermas text-center text-white" >VER <b>MÁS </b> </p> 
                  </a> 
-                </div>
-               
-                <div>
-                  <a  routerLink="/carrito"  (click)="addBook(producto)" >
+                
+                  <!-- <a  routerLink="/carrito"  (click)="addBook(producto)" >
                    <span class="material-icons"  >  shopping_cart </span>
-                </a> 
+                </a>  -->
                  </div>
    
           </div>
@@ -37,3 +33,17 @@
      </div>
      
     </div>
+
+
+
+    <!-- <div class="container">
+      <div class="div-img" >
+        <img class="img" src="assets/cajas.jpg" title="Foto4" alt="Foto4">
+          <div class="text">
+            <a   [routerLink]="['/verdetalle',i]" >
+              <p class="vermas text-center text-white mt-4" >VER <b>MÁS </b> </p> 
+              </a> 
+          </div>
+      </div>
+  </div>
+   -->
