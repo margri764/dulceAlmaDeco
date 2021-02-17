@@ -1,0 +1,99 @@
+
+
+/* img{
+
+    width: 50vw;
+    height: 50vh;
+} */
+/* ------------------------------------------------------------------ */
+
+
+.container {
+    margin-top: 20vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20px;
+  }
+  .div-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 50vh;
+  }
+  .div-img .img {
+  
+     
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+  }
+  .div-img .text {
+    /* font-family: 'Open Sans'; */
+    height: 60px;
+    background-color:whitesmoke;
+    /* padding-top: 5px; */
+    display: block;
+    text-align: center;
+    width: 100%;
+    transform: translate(0px);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    opacity: 0;
+    transition: transfom opacity 1s;
+  }
+  .div-img:hover .img {
+    opacity: 0.9;
+    box-shadow: 5px 5px 10px rgb(100, 97, 97);
+    filter:brightness(0.8);
+  
+  
+  }
+  .div-img:hover .text {
+    transform: translate(0px, -50px);
+    opacity: 0.8;
+    background-color:whitesmoke;
+  
+  }
+  
+  
+  .vermas{
+           
+    max-width: 50%;
+    background-color:rgb(243, 97, 39);
+    margin-top: 0;
+    margin:auto;
+    /* font-size: 30px; */
+    line-height: 4vh;
+    opacity: 1;
+  }   
+  
+  .vermas:hover{
+  
+          background-color: rgb(252, 73, 2);
+          max-width: 100%;
+          font-weight: bold;
+          opacity: 1;
+  
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  
+  
+  

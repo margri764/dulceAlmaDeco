@@ -39,11 +39,13 @@ import { ContactusComponent } from './componentes/contactus/contactus.component'
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { InputControlComponent } from './input-control/input-control.component';
 import { TallerComponent } from './componentes/taller/taller.component';
+import { UbicacionComponent } from './componentes/ubicacion/ubicacion.component';
 
 
 //rutas
   const routes: Routes = [  
-  { path: 'navbar', component: NavbarComponent },  
+  { path: 'navbar', component: NavbarComponent }, 
+  { path: 'ubicacion', component: UbicacionComponent }, 
   { path: 'taller', component: TallerComponent }, 
   { path: 'input-control', component: InputControlComponent },  
   { path: 'contactus', component: ContactusComponent },    
@@ -85,6 +87,7 @@ import { TallerComponent } from './componentes/taller/taller.component';
     ContactusComponent,
     NavbarComponent,
     TallerComponent,
+    UbicacionComponent,
    
  
   
