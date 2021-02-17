@@ -103,7 +103,6 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-
   width: 30vw;
   
 }
@@ -205,6 +204,10 @@ a{
     width: 97vw;
   
    } */
+   .div-img {
+     width: 97vw;
+    
+  }
 
 }
 
@@ -219,6 +222,18 @@ a{
     width: 40vw;
   
    } */
+
+   .div-img .text {
+   
+    height: 40px;
+  
+   }
+
+   .div-img:hover .text {
+    transform: translate(0px, -40px);
+   
+  
+  }
 
 
 
@@ -254,6 +269,19 @@ a{
     width: 30vw;
   
    } */
+
+
+   .div-img .text {
+   
+    height: 10px;
+  
+   }
+
+   .div-img:hover .text {
+    transform: translate(0px, -40px);
+   
+  
+  }
 
 }
 
