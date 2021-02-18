@@ -1,20 +1,11 @@
 
-
-/* img{
-
-    width: 50vw;
-    height: 50vh;
-} */
-/* ------------------------------------------------------------------ */
-
-
-.container {
-    margin-top: 20vh;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 20px;
+  #font{
+    font-family:'ribeye';
+    font-size: 2.7vh;
+  
   }
+
+
   .div-img {
     display: block;
     margin-left: auto;
@@ -23,8 +14,7 @@
     height: 50vh;
   }
   .div-img .img {
-  
-     
+    box-shadow: 2px 2px 3px rgb(100, 97, 97);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -41,7 +31,7 @@
   }
   .div-img .text {
     /* font-family: 'Open Sans'; */
-    height: 60px;
+    height: 8vh;
     background-color:whitesmoke;
     /* padding-top: 5px; */
     display: block;
@@ -54,6 +44,7 @@
     -o-transition: all 500ms ease-in-out;
     opacity: 0;
     transition: transfom opacity 1s;
+    box-shadow: 5px 5px 10px rgb(100, 97, 97);
   }
   .div-img:hover .img {
     opacity: 0.9;
@@ -63,30 +54,30 @@
   
   }
   .div-img:hover .text {
-    transform: translate(0px, -50px);
-    opacity: 0.8;
+    transform: translate(0px, -9vh);
+    opacity: 0.7;
     background-color:whitesmoke;
+   
   
   }
   
   
-  .vermas{
+  .div-img .text .vermas{
            
-    max-width: 50%;
+    max-width: 18vw;
     background-color:rgb(243, 97, 39);
-    margin-top: 0;
     margin:auto;
-    /* font-size: 30px; */
-    line-height: 4vh;
+    line-height: 8.1vh;
     opacity: 1;
   }   
   
-  .vermas:hover{
+  .div-img .text .vermas:hover{
   
           background-color: rgb(252, 73, 2);
           max-width: 100%;
           font-weight: bold;
           opacity: 1;
+    
   
   }
   
@@ -96,4 +87,114 @@
   
   
   
+  /* -------------------------------------------@media query------------------------------------ */
+ 
+
+@media only screen and (max-width: 573px){
   
+  .div-img .text {
+   
+    height:4vh;
+  
+   }
+
+   .div-img:hover .text {
+    transform: translate(0px, -5vh);
+   
+  
+  }
+
+
+   
+   .div-img {
+     width: 93vw;
+    
+  }
+
+
+  .vermas{
+          
+
+    line-height: 4vh;
+  
+  }   
+  
+  
+
+
+
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 574px)and (max-width: 768px){
+
+
+   .div-img .text {
+   
+    height: 7vh;
+  
+   }
+
+   .div-img:hover .text {
+    transform: translate(0px, -8vh);
+   
+  
+  }
+
+
+
+.material-icons {
+
+  font-size: 25px;  
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.vermas{
+          
+
+  line-height: 7vh;
+
+}   
+
+
+  
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px)and (max-width: 992px) {
+
+  
+
+   /* .div-img .text {
+   
+    height: 10px;
+  
+   }
+
+   .div-img:hover .text {
+    transform: translate(0px, -40px);
+   
+  
+  } */
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
