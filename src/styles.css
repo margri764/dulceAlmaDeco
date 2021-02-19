@@ -13,11 +13,17 @@
 
 }
 
+
 body{
     background-color: rgb(245, 227, 220);
-    overflow-x: hidden;
-    margin: 0;
-    /* margin-bottom: 10vh;    */
+    /* overflow-x: hidden; */
+  
+
+    
+
+
+    /* margin-bottom: 10vw;   
+    position: bottom; */
      
 }
 
@@ -26,43 +32,43 @@ body{
 
 @media only screen and (max-width: 573px){
 
-    body{
+    /* body{
      
-        margin-bottom: 10vh;   
+        margin-bottom: 10vw;   
          
-    }
+    } */
 
 }
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (min-width: 574px)and (max-width: 767px){
   
 
-    body{
+    /* body{
      
-        margin-bottom: 50vh;   
+        margin-bottom: 50vw;   
          
     }
-    
+     */
   }
    
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px)and (max-width: 992px) {
-    body{
+    /* body{
      
-        margin-bottom: 20vh;   
+        margin-bottom: 20vw;   
          
-    }
+    } */
       
   }
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
   
-    body{
+    /* body{
      
-        margin-bottom: 50vh;   
+        margin-bottom: 50vw;   
          
-    }
+    } */
   }
   
   

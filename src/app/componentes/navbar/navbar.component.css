@@ -118,6 +118,13 @@ a{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 574px) {
 
+   #font .navbar-brand{
+    font-family:'cream';
+    font-size: 4vw;
+ 
+   
+  }
+  
 
   .nav-item{
     

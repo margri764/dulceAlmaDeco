@@ -1,23 +1,41 @@
 
 
-    <app-header ></app-header>
+    <div class="page-wrapper">
+        <div class="sticky-header">
+           
+        </div>
+        <div class="content-wrapper">
+            <div class="content">
+            
+                <app-header></app-header>  
+                <app-navbar *ngIf="!(router.url === '/carrito' || router.url === '/contactus')">
+                </app-navbar>
+        
+            <app-varios *ngIf="!(router.url === '/carrito' || router.url === '/contactus' ||
+                                 router.url === '/fofacil' || router.url === '/sellos'    ||
+                                 router.url === '/taller'  || router.url === '/ubicacion')" >   
+            </app-varios>
+            
+          
+             <router-outlet> </router-outlet> 
+            </div>
+            <div class="footer">
+                <app-footer></app-footer>  
+            </div>
+        </div>
+    </div>
+
+
+
+
     
   
 
-    <app-navbar *ngIf="!(router.url === '/carrito' || router.url === '/contactus')">
-    </app-navbar>
-
-    <app-varios *ngIf="!(router.url === '/carrito' || router.url === '/contactus' ||
-                         router.url === '/fofacil' || router.url === '/sellos'    ||
-                         router.url === '/taller'  || router.url === '/ubicacion')" >   
-    </app-varios>
     
-  
-     <router-outlet> </router-outlet> 
 
    
     
-    <app-footer ></app-footer>
+    
  
 
 

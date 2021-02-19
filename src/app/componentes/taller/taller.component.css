@@ -6,10 +6,10 @@
 
  
   .transition {
-    -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -ms-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
   }
   .flex-container {
    
@@ -22,7 +22,7 @@
     top: 20px;
   }
   .div-img {
-    margin-top: 50vh;
+    margin-top: 15vw;
     /* margin-left: auto;
     margin-right: auto; */
   }
