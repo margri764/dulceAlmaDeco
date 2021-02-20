@@ -1,9 +1,4 @@
 
-  #font{
-    font-family:'ribeye';
-    font-size: 2vw;
-  
-  }
 
 
   .div-img {
@@ -30,10 +25,10 @@
     -o-transition: all 500ms ease-in-out;
   }
   .div-img .text {
-    /* font-family: 'Open Sans'; */
-    height: 8vw;
+    font-family:'ribeye';
+    font-size: 1.8vw;
+    height: 2vw;
     background-color:whitesmoke;
-    /* padding-top: 5px; */
     display: block;
     text-align: center;
     width: 100%;
@@ -54,6 +49,7 @@
   
   }
   .div-img:hover .text {
+    font-size: 1.7vw;
     transform: translate(0px, -9vw);
     opacity: 0.7;
     background-color:whitesmoke;
@@ -67,8 +63,9 @@
     max-width: 30vw;
     background-color:rgb(243, 97, 39);
     margin:auto;
-    line-height: 8.1vw;
+    line-height: 2vw;
     opacity: 1;
+
   }   
   
   .div-img .text .vermas:hover{
@@ -84,6 +81,55 @@
   a{
     text-decoration: none;
   }
+
+  .title{
+    line-height: 3.8vw;
+   }
+  
+  
+  .title p#a{
+    font-family:'ribeye';
+    font-size: 1.8vw;
+    color: rgb(255, 80, 182);
+  
+  }
+  .title p {
+    font-family:'ribeye';
+    font-size: 1.8vw;
+    color:  black
+  
+  }
+  
+  
+  
+  span#whatsapp {
+   
+    font-size: 2vw;
+    margin-right: 2vw;
+    color:rgb(92, 235, 74);
+  } 
+  
+  
+  span#envelope{
+    font-size: 5vw;
+    margin-right: 2vw;
+    color: rgb(255, 80, 182);
+  
+  }
+  
+  
+    .title p#a{
+      font-family:'ribeye';
+      font-size: 1vw;
+      color: rgb(255, 80, 182);
+  
+    }
+    .title p {
+      font-family:'ribeye';
+      font-size: 2vw;
+      color:  black
+  
+    }
   
   
   
@@ -92,15 +138,52 @@
 
 @media only screen and (max-width: 573px){
   
-  #font{
-    font-family:'ribeye';
-    font-size: 2.6vw;
+
   
- }
+ 
+ .container{
+  flex-direction: column;
+  margin-top: 10vw;
+    }
+
+.title{
+  line-height: 5vw;
+  }
+
+
+.title p#a{
+  font-family:'ribeye';
+  font-size: 4vw;
+  color: rgb(255, 80, 182);
+
+}
+.title p {
+  font-family:'ribeye';
+  font-size: 3vw;
+  color:  black
+
+}
+
+
+span#whatsapp {
+ 
+  font-size: 2vw;
+  margin-right: 2vw;
+  color:rgb(92, 235, 74);
+} 
+
+
+span#envelope{
+  font-size: 5vw;
+  margin-right: 2vw;
+  color: rgb(255, 80, 182);
+
+}
 
  .div-img {
   width: 93vw;
   margin-bottom: 50vw;
+  margin-top: 10vw;
  
 }
 
@@ -135,17 +218,51 @@
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 574px)and (max-width: 768px){
+@media only screen and (min-width: 574px)and (max-width: 767px){
 
 
-  #font{
-    font-family:'ribeye';
-    font-size: 2vw;
-  
+
+ .container{
+
+    margin-top: 10vw;
  }
 
+ .title{
+  line-height: 4vw;
+}
+
+
+.title p#a{
+  font-family:'ribeye';
+  font-size: 2vw;
+  color: rgb(255, 80, 182);
+
+}
+.title p {
+  font-family:'ribeye';
+  font-size: 2vw;
+  color:  black
+
+}
+
+
+span#whatsapp {
+ 
+  font-size: 2vw;
+  margin-right: 2vw;
+  color:rgb(92, 235, 74);
+} 
+
+
+span#envelope{
+  font-size: 5vw;
+  margin-right: 2vw;
+  color: rgb(255, 80, 182);
+
+}
+
  .div-img {
-  width: 60vw;
+  width: 50vw;
   margin-bottom: 20vw;
  
 }
@@ -177,11 +294,49 @@
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 769px)and (max-width: 992px) {
+@media only screen and (min-width: 768px)and (max-width: 992px) {
 
+  .container{
+
+    margin-top: 10vw;
+ }
+
+ .title{
+  line-height: 6vw;
+}
+
+
+.title p#a{
+  font-family:'ribeye';
+  font-size: 3vw;
+  color: rgb(255, 80, 182);
+
+}
+.title p {
+  font-family:'ribeye';
+  font-size: 2vw;
+  color:  black
+
+}
+
+
+span#whatsapp {
+ 
+  font-size: 2vw;
+  margin-right: 2vw;
+  color:rgb(92, 235, 74);
+} 
+
+
+span#envelope{
+  font-size: 5vw;
+  margin-right: 2vw;
+  color: rgb(255, 80, 182);
+
+}
   
   .div-img {
-    width: 60vw;
+    width: 50vw;
     margin-bottom: 20vw;
    
  }
@@ -193,11 +348,7 @@
   
   }   
   
-  #font{
-    font-family:'ribeye';
-    font-size: 1.8vw;
-  
- }
+ 
 
   .div-img .text {
    
@@ -219,25 +370,61 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1280px) {
   
-  #font{
+
+  .container{
+
+    margin-top: 10vw;
+ }
+
+ .title{
+  line-height: 3.8vw;
+ }
+
+
+span#whatsapp {
+ 
+  font-size: 2vw;
+  margin-right: 2vw;
+  color:rgb(92, 235, 74);
+} 
+
+
+span#envelope{
+  font-size: 5vw;
+  margin-right: 2vw;
+  color: rgb(255, 80, 182);
+
+}
+
+
+  .title p#a{
     font-family:'ribeye';
-    font-size: 1.7vw;
-  
+    font-size: 3vw;
+    color: rgb(255, 80, 182);
+
   }
+  .title p {
+    font-family:'ribeye';
+    font-size: 1.8vw;
+   
+
+  }
+
+
   .div-img {
-    width: 50vw;
+    width: 40vw;
     margin-bottom: 10vw;
    
  }
 
   .div-img .text {
    
-    height: 5vw;
+    height: 4vw;
   
    }
 
    .div-img:hover .text {
-    transform: translate(0px, -5vw);
+    transform: translate(0px, -4vw);
    
   
   }
@@ -248,7 +435,7 @@
     max-width: 22vw;
     background-color:rgb(243, 97, 39);
     margin:auto;
-    line-height: 5vw;
+    line-height: 4.1vw;
     opacity: 1;
   }   
   
