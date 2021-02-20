@@ -1,12 +1,49 @@
-
-
-.footer{
-
-    padding: 1vw;
+.flex-container{
+    background-color: white;
+    box-shadow: 5px 5px 15px rgb(100, 97, 97);
+    margin-top: 2vw;
+    padding: 2vw;
+    font-size: 1.4vw;
+  
 
 }
 
-#font{
-    font-family:'ribeye';
-    font-size: 1.8vw;
+.copyright {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+    font-size: 1.3vw;
+   
+}
+
+span#twitter{
+    font-size: 2.7vw;
+    color:rgb(110, 110, 108);
+    margin: 1vw;
+  }
+
+span#twitter:hover{
+    color:rgb(238, 91, 226);
+}
+
+
+  span#instagram{
+    font-size: 2.7vw;
+    color:rgb(110, 110, 108);
+    margin: 1vw;
+  }
+
+  span#instagram:hover{
+    color:rgb(238, 91, 226);
+}
+
+  span#facebook{
+    font-size: 2.7vw;
+    color:rgb(110, 110, 108);
+    margin: 1vw;
+ 
+  }
+
+  span#facebook:hover{
+    color:rgb(238, 91, 226);
 }
