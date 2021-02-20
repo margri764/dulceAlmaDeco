@@ -26,7 +26,7 @@
   }
   .div-img .text {
     font-family:'ribeye';
-    font-size: 1.8vw;
+    font-size: 1.3vw;
     height: 2vw;
     background-color:whitesmoke;
     display: block;
@@ -424,6 +424,7 @@ span#envelope{
    }
 
    .div-img:hover .text {
+ 
     transform: translate(0px, -4vw);
    
   
@@ -432,11 +433,12 @@ span#envelope{
 
   .div-img .text .vermas{
            
-    max-width: 22vw;
+    max-width: 23vw;
     background-color:rgb(243, 97, 39);
     margin:auto;
     line-height: 4.1vw;
     opacity: 1;
+    font-size: 1.3vw;
   }   
   
   .div-img .text .vermas:hover{
@@ -444,6 +446,7 @@ span#envelope{
           background-color: rgb(252, 73, 2);
           max-width: 100%;
           font-weight: bold;
+      
           opacity: 1;
     
   
