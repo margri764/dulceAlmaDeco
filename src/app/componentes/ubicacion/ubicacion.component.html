@@ -42,3 +42,59 @@
      
 
 </div>
+
+<div class="form_wrap" id="font">
+
+       <form  (ngSubmit)="contactForm(form.value)" #form="ngForm" id="form" class="form_contact" id="font"> 
+    
+      <h2>Procesar Compra</h2>
+   
+      
+
+      
+   
+     
+          <label>Nombres *</label>
+          <input type="text"  class="form-control" name="nombre" ngModel >
+
+          <label>Telefono / Celular *</label>
+          <input type="number" class="form-control" name="cel" ngModel >
+
+          <label>Correo electronico *</label>
+          <input type="email" class="form-control" name="email" ngModel >
+
+         
+
+       
+              <br>
+           
+
+                         
+          <label class="mt-5">Mensaje *</label>
+          <textarea class="form-control" name="mensaje"  ngModel></textarea>
+
+          <button type="submit" disabled={{clicked}} class="btn btn-xs btn-sm btn-success" id="font">Enviar </button>
+       
+          <button class="btn btn-primary  btn-xs btn-sm m-1" id="font"  
+              (click)="onCloseSeguir()">
+              Volver
+
+            </button>
+   
+
+
+  </form>
+
+          
+</div>
+
+
+
+
+
+
+
+ 
+  
+
+
