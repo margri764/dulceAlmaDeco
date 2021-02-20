@@ -49,21 +49,24 @@ span#twitter:hover{
 }
 
 
-.icons .face{
- padding: 20px;
+/* .icons .fb-like{ */
+ /* padding: 20px; */
+ /* margin-left: 20vw; */
   /* text-align: center; */
-}
+/* } */
  /* -------------------------------------------@media query------------------------------------ */
  
 
  @media only screen and (max-width: 574px){
  
    
-/*  
-.fb-like{
- height: 1px;
-  width:1px;
-} */
+  .flex-container{
+    
+    font-size: 2vw;
+  
+
+}
+
  
  
  }
