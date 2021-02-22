@@ -14,13 +14,13 @@ import { Cart }from '../../model/cart.model';
 
 export class VerdetalleComponent implements OnInit {
 
-  arrProductos : any []=[];
+ arrProductos : any[]=[] ;
 
   
   constructor(
    
     private ruta : ActivatedRoute,
-    private _servicio :  ServarrayfotosService,
+    public servicio :  ServarrayfotosService,
     public cart:Cart,
  
    
@@ -29,12 +29,13 @@ export class VerdetalleComponent implements OnInit {
 
           this.ruta.params.subscribe(params=>{
       
-          this.arrProductos = this. _servicio.getIndex(params["id"]);  
+          this.arrProductos = this.servicio.getIndex(params["id"]);  
     
-      
+   
 
 
       })
+  
   }
 
 

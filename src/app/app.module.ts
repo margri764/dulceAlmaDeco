@@ -14,7 +14,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { MatDialogModule,MatDialogRef} from '@angular/material/dialog';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { InputControlModule } from './input-control/input-control.module';
-import * as $ from "jquery";
+import { HashLocationStrategy,LocationStrategy} from'@angular/common';
+
 
 //servicios y rutas
 import { ServarrayfotosService } from './servicios/servarrayfotos.service'; 
@@ -46,7 +47,7 @@ import { UbicacionComponent } from './componentes/ubicacion/ubicacion.component'
   const routes: Routes = [  
   { path: 'navbar', component: NavbarComponent }, 
   { path: 'ubicacion', component: UbicacionComponent }, 
-  { path: 'taller', component: TallerComponent }, 
+  { path: 'taller', component: TallerComponent },
   { path: 'input-control', component: InputControlComponent },  
   { path: 'contactus', component: ContactusComponent },    
   { path: 'fofacil', component: FofacilComponent }, 
@@ -118,7 +119,8 @@ import { UbicacionComponent } from './componentes/ubicacion/ubicacion.component'
       provide: MatDialogRef,
       useValue:{}
     },
-   
+   {provide: LocationStrategy, useClass:HashLocationStrategy
+   },
   
   
   ],

@@ -17,16 +17,17 @@ export class FofacilComponent implements OnInit {
   numero : any;  
   cartel : any;
 
-          constructor(  private _servicio :  ServarrayfotosService, 
+          constructor(  
+                        private servicio :  ServarrayfotosService, 
                         public cart : Cart,
                         private dialog : MatDialog,
                       ) 
       
             {
 
-              this.arrayProductos = _servicio.getProductos();
-              this._servicio= _servicio.getIndex("id");
-              this.numero= _servicio.itemsProductos();
+              this.arrayProductos = servicio.getProductos();
+              this.servicio= servicio.getIndex("id");
+              this.numero= servicio.itemsProductos();
                   
 
             

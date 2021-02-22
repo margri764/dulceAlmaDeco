@@ -37,8 +37,7 @@ export class InputControlComponent implements OnInit,ControlValueAccessor {
     this.cart.lines.map(element => {
     this.array.push("\n" + element.quantity + element.producto.nombre +" $ "+ element.lineTotal )
      });
-    //  this.data= this.array.toString() 
-    // console.log(this.data)
+   
 
     this.total= this.cart.cartPrice
     this.writeValue(this.array)

@@ -1,8 +1,6 @@
-#fotos{
-      
-    height: 100vh;
 
-  }
+
+
 
 .carousel {
 
@@ -13,7 +11,7 @@ padding: 1px;
 
 .carousel-item{
 
-    height: 32rem;
+    height: 50vw;
     background: rgb(63, 47, 47);
     color:rgb(255, 251, 251);
     position:relative;
@@ -22,12 +20,15 @@ padding: 1px;
 
 }
 
+
+
 .container{
     position: absolute;
     bottom: 0;
     left:0;
     right: 0;
     padding-bottom: 50px;
+    font-size: 1.8vw;
 }
 
 .overlay-image{
@@ -38,10 +39,18 @@ padding: 1px;
   top: 0;
   background-position: center;
   background-size: cover;
-  /* opacity:0.5; */
+  /* opacity:0.9; */
 
-
-
+}
+a {
+  line-height: 3.2vw;
+  font-size: 2vw;
+  opacity: 0.8;
+}
+btn{
+  box-shadow: 5px 5px 20px rgb(100, 97, 97);
+  border-style: solid;
+  border: 2px;
 }
 
 
@@ -49,50 +58,82 @@ padding: 1px;
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 574px) {
 
-  .carousel{
+  .carousel-item{
 
-    display: none;
+    height: 50vw;
   
-  }
+}
+.container{
+  font-size: 4vw;
+  padding-bottom: 8vw;
+}
+
+a {
+  line-height: 1vw;
+  font-size: 4vw;
+  opacity: 0.8;
+  box-shadow: 5px 5px 20px rgb(100, 97, 97);
+
+
+
+}
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 575px)and  (max-width: 768px) {
        
-/* img{
-       
-       width:100% ;
+  .carousel-item{
 
-} */
-.carousel{
+    height: 50vw;
+  
+}
+.container{
+  font-size: 3.2vw;
+  padding-bottom: 10vw;
+}
 
-  display: none;
+a {
+  line-height: 1vw;
+  font-size: 3.2vw;
+  opacity: 0.8;
+  box-shadow: 5px 5px 20px rgb(100, 97, 97);
+
+
 
 }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 769px)and (max-width: 992px){
-  .carousel{
+@media only screen and (min-width: 769px)and (max-width: 1024px){
 
-    display: none;
+ .carousel-item{
+
+    height: 50vw;
   
-  }
+}
+.container{
+  font-size: 2vw;
+  padding-bottom: 7vw;
+}
+
+a {
+  line-height: 2.2vw;
+  font-size: 2vw;
+  opacity: 0.8;
+  box-shadow: 5px 5px 20px rgb(100, 97, 97);
+
+
+
+}
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1025px) {
 
-       /* #font{
-              font-family:'ribeye';
-              font-size: 3vh;
-            
-            } */
-            /* .carousel{
 
-              display: none;
-            
-            }    */
 
 }
 

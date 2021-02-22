@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Cart } from '../../model/cart.model';
-import { ServarrayfotosService } from '../../servicios/servarrayfotos.service';
 
 
 @Component({
@@ -11,20 +9,15 @@ import { ServarrayfotosService } from '../../servicios/servarrayfotos.service';
 
 
 export class SellosComponent implements OnInit {
-  arrayProductos : any []=[];
-  numero : any;  
-  cartel : any;
 
-          constructor(  private _servicio :  ServarrayfotosService, 
-                        public cart : Cart,
+
+          constructor(  
                                          
                       ) 
       
             {
 
-              this.arrayProductos = _servicio.getProductos();
-              this._servicio= _servicio.getIndex("id");
-              this.numero= _servicio.itemsProductos();
+           
                   
 
             
@@ -39,9 +32,7 @@ export class SellosComponent implements OnInit {
    
   }
 
-  addBook(producto){
-    this.cart.addLine(producto)
-  }
+ 
 
  
  

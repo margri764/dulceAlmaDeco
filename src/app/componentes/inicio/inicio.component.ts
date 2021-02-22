@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute} from '@angular/router';
-import { ServarrayfotosService} from './../../servicios/servarrayfotos.service';
 
 
 
@@ -11,14 +9,11 @@ import { ServarrayfotosService} from './../../servicios/servarrayfotos.service';
 })
 export class InicioComponent implements OnInit {
 
-  arrCategorias:any[]=[];
-  numero : any;  
+ 
 
-  constructor(private _servicio :  ServarrayfotosService ) { 
+  constructor( ) { 
 
    
-    // this._servicio= _servicio.obtenerindex2("id");
-    // this.numero= _servicio.numeroarray2();
 
   }
 

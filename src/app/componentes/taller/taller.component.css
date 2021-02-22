@@ -1,16 +1,5 @@
-@font-face {
-    font-family:'ribeye';
-    src: url(/assets/font/Ribeye-Regular.ttf);
-     
-  }
 
- 
-  /* .transition {
-    -webkit-transition: all 300ms ease-in-out;
-    -moz-transition: all 300ms ease-in-out;
-    -ms-transition: all 300ms ease-in-out;
-    -o-transition: all 300ms ease-in-out;
-  } */
+
   .flex-container {
    
     
@@ -120,17 +109,17 @@
 
   .flex-container {
    
-    
+
   width: 30vw;
   height: 30vw;
   left: 0;
   right: 0;
-  margin: 0 auto;
+  margin: 50 auto;
   top: 20px;
 }
 
 .div-img {
-  margin-top: 15vw;
+  margin-top: 50vw;
   
 
 }
@@ -147,15 +136,24 @@
 }
 
 .div-img:hover .text {
- 
-  margin-top: 2vw;
-  
-}  
+  margin-top: 10vw;
+
+  -webkit-transform: 0px 0px 2;
+  -moz-transform: 0px 0px 2;
+  -ms-transform: 0px 0px 2;
+  -o-transform: 0px 0px 2;
+  transform: 0px 0px 2;
+  transform: translate(0px, 0px) scale(2);
+  -webkit-transform: translate(0px, 0px) scale(1.5);
+  -moz-transform: translate(0px, 0px) scale(2);
+  -o-transform: translate(0px, 0px) scale(2);
+  -ms-transform: translate(0px, 0px) scale(2);
+}
 
 }
 
 /* Extra small devices (phones, 600px and down) */
-  @media only screen and (min-width: 574px)and (max-width: 767px){
+  @media only screen and (min-width: 574px)and (max-width: 768px){
   
     #font{
       font-family:'ribeye';
@@ -176,7 +174,7 @@
   }
   
   .div-img {
-    margin-top: 15vw;
+    margin-top: 50vw;
  
     
   
@@ -207,7 +205,7 @@
   
   
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px)and (max-width: 992px) {
+  @media only screen and (min-width: 769px)and (max-width: 1024px) {
   
     #font{
       font-family:'ribeye';
@@ -256,7 +254,7 @@
   }
   
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1025px) {
 
  
   

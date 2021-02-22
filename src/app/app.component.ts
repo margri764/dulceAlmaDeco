@@ -1,10 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import swal from 'sweetalert';
-import { pathToFileURL } from 'url';
-import { MessageService } from "./servicios/message.service";
-// import * as swal from 'sweetalert';
-// import { SweetAlert } from 'sweetalert/typings/core';
+
 
 @Component({
   selector: 'app-root',
@@ -19,7 +15,7 @@ export class AppComponent {
   public path: any = [];
  
 
-  constructor( private router : Router,
+  constructor( public router : Router,
                private ruta : ActivatedRoute,
               )
         {

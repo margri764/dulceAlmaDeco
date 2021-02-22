@@ -5,15 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         
-        
-        // {
-        //     "type": "chrome",
-        //     "request": "launch",
-        //     "name": "Launch Chrome against localhost",
-        //     "url": "http://localhost:80/index.html",
-        //     "webRoot": "${workspaceFolder}"
-        // }
-    
+      
     {
         "type": "firefox",
         "request": "launch",

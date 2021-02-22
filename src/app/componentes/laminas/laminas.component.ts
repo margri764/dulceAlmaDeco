@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-laminas',
@@ -8,17 +7,15 @@ import { FormGroup, FormControl } from '@angular/forms';
 })
 export class LaminasComponent implements OnInit {
   
-  myText: string = '';
-  pruebaForm: FormGroup;
+
 
   constructor() { 
    
    
-    this.pruebaForm = new FormGroup({
-      'pruebaInput': new FormControl('Chao')
-    })
+   
+    }
   
-  }
+  
 
   ngOnInit() {
   }

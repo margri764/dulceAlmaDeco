@@ -1,8 +1,7 @@
-import { Component, Input, OnInit} from '@angular/core';
+import { Component,  OnInit} from '@angular/core';
 import { MessageService } from '../../servicios/message.service';
 import swal from 'sweetalert';
 import { Cart } from '../../model/cart.model';
-import { FormGroup, FormControl,NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import { MatDialogRef } from '@angular/material/dialog';
 
@@ -19,23 +18,7 @@ import { MatDialogRef } from '@angular/material/dialog';
 export class ContactusComponent implements OnInit {
 
 
-// createFormGroup(){
 
-//   return new FormGroup({
-
-//     nombre: new FormControl(''),
-//     cel: new FormControl(''),
-//     email: new FormControl(''),
-//     cantidad: new FormControl(''),
-//     producto: new FormControl(''),
-//     total: new FormControl(''),
-//     mensaje: new FormControl(''),
-
-//   });
-
-// }
-
-// contactForm: FormGroup;
 
 
 quantity:any;
@@ -56,8 +39,7 @@ constructor( public _MessageService: MessageService,
             
             { 
 
-            //   this.contactForm = this.createFormGroup();
-            // console.log(this.contactForm.value)
+   
            
 
              }
@@ -70,7 +52,7 @@ constructor( public _MessageService: MessageService,
                      });
                     this.string=this.array
                    
-                    // console.log(this.string) 
+             
                     }
                    
                   
@@ -80,11 +62,7 @@ constructor( public _MessageService: MessageService,
                 }
                
 
-                // clearForm(){
-                //   (<HTMLFormElement>document.getElementById("form")).reset();
-                //   (<HTMLFormElement>document.getElementById("pedido")).reset();
-
-                //  }
+           
 
                 onCloseSeguir(){
   
@@ -106,19 +84,6 @@ constructor( public _MessageService: MessageService,
 
                   }
 
-                  // actionMethod(){
-                  //   this.clicked=true;
-                  // }
-
-              // onResetForm(){
-              //   this.contactForm.reset()
-              // }
-
-              // onSaveForm(form){
-              //   this._MessageService.sendMessage(form).subscribe(() => {
-              //       swal("Su Pedido", "Pedido enviado correctamente", "success");
-                 
-              //       });
-              // }
+             
                
             }    

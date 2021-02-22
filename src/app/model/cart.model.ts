@@ -14,16 +14,16 @@ export class Cart {
 
 addLine(producto:any, quantity:number=1) {
 
-    // console.log("lines al iniciar",libro.name+ ","+libro.price)
+ 
    
 
   let line = this.lines.find(line=> line.producto.id  === producto.id);
-  // console.log("line al salir",line)
+
  
 
     if (line !== undefined) {
       line.quantity += Number(quantity);
-      // console.log("line al salir",line)
+    
       this.cantidad=quantity;
    
     } else {
