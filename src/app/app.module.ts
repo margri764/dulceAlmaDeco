@@ -41,6 +41,7 @@ import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { InputControlComponent } from './input-control/input-control.component';
 import { TallerComponent } from './componentes/taller/taller.component';
 import { UbicacionComponent } from './componentes/ubicacion/ubicacion.component';
+import { SlideoffComponent } from './componentes/slideoff/slideoff.component';
 
 
 //rutas
@@ -89,6 +90,7 @@ import { UbicacionComponent } from './componentes/ubicacion/ubicacion.component'
     NavbarComponent,
     TallerComponent,
     UbicacionComponent,
+    SlideoffComponent,
    
  
   

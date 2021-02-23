@@ -48,8 +48,12 @@
   
   .navbar{
     box-shadow: 5px 5px 10px rgb(100, 97, 97);
+ 
 
     
+  }
+  .navbar-collapse{
+    transition: all 500ms linear;
   }
 
    #font .navbar-brand{
@@ -61,7 +65,8 @@
   
 
   .nav-item{
-    
+      transition: all 500ms linear;
+
       margin-top: 10px;
   }
 

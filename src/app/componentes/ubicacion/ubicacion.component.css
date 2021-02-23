@@ -153,13 +153,13 @@
 
 .title p#a{
   font-family:'ribeye';
-  font-size: 4vw;
+  font-size: 5vw;
   color: rgb(255, 80, 182);
 
 }
 .title p {
   font-family:'ribeye';
-  font-size: 3vw;
+  font-size: 3.8vw;
   color:  black
 
 }
@@ -203,13 +203,14 @@ span#envelope{
 
 
  .div-img .text {
-  /* font-family: 'Open Sans'; */
+ 
   height: 8vw;
   
 }
  .div-img .text .vermas{
-           
+  font-size: 3vw;         
   line-height: 8vw;
+  max-width: 40vw;
 
 }   
 
@@ -231,6 +232,7 @@ span#envelope{
  .container{
 
     margin-top: 10vw;
+    padding: 0;
  }
 
  .title{
@@ -240,7 +242,7 @@ span#envelope{
 
 .title p#a{
   font-family:'ribeye';
-  font-size: 2vw;
+  font-size: 3.5vw;
   color: rgb(255, 80, 182);
 
 }
@@ -252,7 +254,7 @@ span#envelope{
 }
 
 span#map{
-  font-size: 2vw;
+  font-size: 4vw;
   margin-right: 2vw;
   color: rgb(255, 80, 182);
 
