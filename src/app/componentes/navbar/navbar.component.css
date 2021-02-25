@@ -227,7 +227,7 @@
     }
     #font .navbar-brand{
       font-family:'ribeye';
-      font-size: 2.8vw;
+      font-size: 2.5vw;
       color: coral;
       font-weight: bold;
    
@@ -244,13 +244,13 @@
   
     #font .nav-item{
       font-family:'ribeye';
-      font-size: 2vw;
+      font-size: 1.8vw;
       margin-top: 0.93vw;
       
   }
   
    #font .dropdown-menu{
-      font-size: 2vw;
+      font-size: 1.8vw;
       width: 30vw;
       box-shadow: 5px 5px 10px rgb(100, 97, 97); 
    }
@@ -291,7 +291,7 @@
   
   .navbar-brand{
     font-family:'ribeye';
-    font-size: 2.8vw;
+    font-size: 2.1vw;
     color: coral;
     font-weight: bold;
   }
