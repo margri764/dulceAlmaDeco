@@ -1,9 +1,9 @@
         
 
 
- <div class="flex-container" id="font">
+ <div class="flex-container d-flex flex-column justify-content-around flex-md-column flex-lg-row flex-xl-row" id="font">
 
-  <div class="d-flex flex-column justify-content-around flex-md-column flex-lg-row flex-xl-row"  >
+ 
             
     <div class="text-center" >
            
@@ -13,24 +13,26 @@
    
 
    
-    <div class="text-left">
+    <div class="justificar text-left">
       <br>
       <h3>{{arrProductos['nombre']}}</h3>
     <br>
     <p> MEDIDAS: 30 x 20 cm </p>
      <p> OBSERVACIONES: Vidrio opcional</p>
   
-   <br>
-     <br>
-      <p>Precio: $ {{arrProductos['precio']}}</p>
+ 
+     
+      <p class="precio"> $ {{arrProductos['precio']}}</p>
+      
+      <div> <button class="btn btn-success" routerLink="../../carrito" (click)="addBook(arrProductos)">Agregar al Carrito</button></div>
 
-      <a routerLink="../../carrito"> <span class="material-icons " (click)="addBook(arrProductos)" >
-          shopping_cart  </span> </a> 
+      <!-- <a routerLink="../../carrito"> <span class="material-icons " (click)="addBook(arrProductos)" >
+          shopping_cart  </span> </a>  -->
     </div> 
     
     
    
- </div>
+ 
 </div> 
 
 

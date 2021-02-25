@@ -289,17 +289,20 @@
     
   }
   
-  #font .navbar-brand{
+  .navbar-brand{
     font-family:'ribeye';
-    font-size: 2vw;
- 
-   
+    font-size: 2.8vw;
+    color: coral;
+    font-weight: bold;
+  }
+  .navbar-nav{
+    margin-left: 42vw;
   }
 
 
 #font .nav-item{
 font-family:'ribeye';
-font-size: 1.8vw;
+font-size: 1.6vw;
 margin-top: 0.5vw;
 }
 
