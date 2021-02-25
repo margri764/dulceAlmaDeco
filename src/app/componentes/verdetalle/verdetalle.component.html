@@ -1,4 +1,4 @@
-        
+<!--         
 
 
  <div class="flex-container d-flex flex-column justify-content-around flex-md-column flex-lg-row flex-xl-row" id="font">
@@ -26,14 +26,32 @@
       
       <div> <button class="btn btn-success" routerLink="../../carrito" (click)="addBook(arrProductos)">Agregar al Carrito</button></div>
 
-      <!-- <a routerLink="../../carrito"> <span class="material-icons " (click)="addBook(arrProductos)" >
-          shopping_cart  </span> </a>  -->
+  
     </div> 
     
     
    
  
-</div> 
+</div>  -->
+
+<!-- ------------------------------------------------------------------------------------ -->
+
+
+<div class="flex-container d-flex flex-column justify-content-around flex-md-column flex-lg-row flex-xl-row" id="font">
+
+
+    <figure class="snip0015">
+      <img [src]="arrProductos['img']" alt="" >
+      <figcaption>
+        <h2>{{arrProductos['nombre']}} <p><span>MEDIDAS: 30 x 20 cm </span></p> OBSERVACIONES: Vidrio opcional</h2>
+        <p><button class="btn btn-success" routerLink="../../carrito" (click)="addBook(arrProductos)">Agregar al Carrito</button></p>
+        <p>$ {{arrProductos['precio']}}</p>
+
+      </figcaption>			
+    </figure>
+
+
+</div>
 
 
   
