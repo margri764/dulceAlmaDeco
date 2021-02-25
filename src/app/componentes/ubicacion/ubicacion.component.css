@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family:'ribeye';
+  src: url(/assets/font/Ribeye-Regular.ttf);
+   
+}
 
 
   .div-img {
@@ -308,7 +313,7 @@ span#envelope{
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px)and (max-width: 992px) {
+@media only screen and (min-width: 768px)and (max-width: 1024px) {
 
   .container{
 
@@ -333,9 +338,10 @@ span#envelope{
 
 }
 
-span#map{
-  font-size: 2vw;
-  margin-right: 2vw;
+ span#map{
+  font-size: 4vw;
+  margin-right: 4vw;
+  margin-left: 1vw;
   color: rgb(255, 80, 182);
 
 
@@ -364,7 +370,7 @@ span#envelope{
            
     max-width: 30vw;
   
-    line-height: 8.1vw;
+    line-height: 5vw;
   
   }   
   
@@ -372,12 +378,12 @@ span#envelope{
 
   .div-img .text {
    
-    height:8vw;
+    height:5vw;
   
    }
 
    .div-img:hover .text {
-    transform: translate(0px, -8vw);
+    transform: translate(0px, -5vw);
    
   
   }
@@ -388,7 +394,7 @@ span#envelope{
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1280px) {
+@media only screen and (min-width: 1025px) {
   
 
   .container{

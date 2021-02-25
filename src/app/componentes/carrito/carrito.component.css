@@ -98,11 +98,11 @@ img{
 
  #font{
   font-family:'ribeye';
-  font-size: 2vh;
+  font-size: 2vw;
 }
 
 h6{
-  font-size: 4vh;
+  font-size: 4vw;
 }
 
 }
@@ -114,36 +114,54 @@ h6{
 
     #font{
       font-family:'ribeye';
-      font-size: 3vh;
+      font-size: 2vw;
     }
   h6{
-    font-size: 5vh;
+    font-size: 4vw;
 
   }
 
-  input{
-    width: 12vh; 
-    font-family:'ribeye';
-    font-size: 4vh;
-    border-color:rgb(255, 255, 254);
-  }
+  
 
   input{
-    width: 6vh; 
+    width: 6vw; 
     font-family:'ribeye';
-    font-size: 2.5vh;
+    font-size: 2.5vw;
     border-color:rgb(255, 255, 254);
 }
 
   }
   
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 769px) and (min-width: 1024px){
+
+    #font{
+      font-family:'ribeye';
+      font-size: 2vw;
+    }
+  h6{
+    font-size: 3.5vw;
+
+  }
+
+  input{
+    width: 12vw; 
+    font-family:'ribeye';
+    font-size: 4vw;
+    border-color:rgb(255, 255, 254);
+  }
+
+  input{
+    width: 6vw; 
+    font-family:'ribeye';
+    font-size: 2.5vw;
+    border-color:rgb(255, 255, 254);
+}
   
   }
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1280px) {
+  @media only screen and (min-width: 1025px) {
    
   
   }

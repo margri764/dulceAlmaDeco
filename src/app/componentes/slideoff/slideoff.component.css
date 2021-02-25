@@ -1,5 +1,10 @@
 
 
+@font-face {
+  font-family:'ribeye';
+  src: url(/assets/font/Ribeye-Regular.ttf);
+   
+}
 
 
 
@@ -79,7 +84,7 @@
            
       .carousel-item{
     
-        height: 50vw;
+        height: 9vw;
       
     }
     .container{
@@ -134,7 +139,11 @@
     /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media only screen and (min-width: 1025px) {
     
+      .carousel-item{
     
+        height: 8.5vw;
+      
+    }
     
     }
     

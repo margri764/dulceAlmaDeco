@@ -1,3 +1,8 @@
+@font-face {
+  font-family:'ribeye';
+  src: url(/assets/font/Ribeye-Regular.ttf);
+   
+}
 
 
   .flex-container {

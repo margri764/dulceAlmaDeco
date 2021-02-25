@@ -15,6 +15,7 @@ import { MatDialogModule,MatDialogRef} from '@angular/material/dialog';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { InputControlModule } from './input-control/input-control.module';
 import { HashLocationStrategy,LocationStrategy} from'@angular/common';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 
 //servicios y rutas
@@ -108,7 +109,8 @@ import { SlideoffComponent } from './componentes/slideoff/slideoff.component';
     BrowserAnimationsModule,
     MatBadgeModule,
     MatSnackBarModule,
-    InputControlModule
+    InputControlModule,
+    MDBBootstrapModule.forRoot()
  
 
   ],

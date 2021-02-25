@@ -1,9 +1,100 @@
-.flex-container{
+
+
+ /* -------------------------------------------@media query------------------------------------ */
+ 
+
+ @media only screen and (max-width: 574px){
+ 
+   
+  .flex-container{
+    
     background-color: rgb(226, 151, 195);
     box-shadow: 5px 5px 20px rgb(100, 97, 97);
     margin-top: 1vw;
     padding: 1vw;
-    font-size: 1.4vw;
+    font-size: 4vw;
+  
+
+  }
+ 
+  span#instagram{
+    font-size: 4vw;
+    color:rgb(110, 110, 108);
+    margin: 1vw;
+  }
+
+
+
+  span#facebook{
+    font-size: 4vw;
+    color:rgb(110, 110, 108);
+    margin: 1vw;
+ 
+  }
+ .fb-like{
+    font-size: 4vw;
+ }
+ 
+ }
+ 
+ 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 575px)and  (max-width: 768px) {
+       
+
+  .flex-container{
+    background-color: rgb(226, 151, 195);
+    box-shadow: 5px 5px 20px rgb(100, 97, 97);
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 2.7vw;
+  
+
+}
+
+
+
+  span#instagram{
+    font-size: 2.7vw;
+    color:rgb(110, 110, 108);
+    margin: 1vw;
+  }
+
+  span#instagram:hover{
+    color:rgb(238, 91, 226);
+}
+
+  span#facebook{
+    font-size: 2.7vw;
+    color:rgb(110, 110, 108);
+    margin: 1vw;
+ 
+  }
+
+  span#facebook:hover{
+    color:rgb(238, 91, 226);
+}
+
+
+@font-face {
+  font-family:'ribeye';
+  src: url(/assets/font/Ribeye-Regular.ttf);
+   
+}
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 769px)and (max-width: 1024px){
+
+  .flex-container{
+    background-color: rgb(226, 151, 195);
+    box-shadow: 5px 5px 20px rgb(100, 97, 97);
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1.6vw;
   
 
 }
@@ -38,44 +129,53 @@
 }
 
 
-
- /* -------------------------------------------@media query------------------------------------ */
- 
-
- @media only screen and (max-width: 574px){
- 
-   
-  .flex-container{
-    
-    font-size: 4vw;
   
 
-  }
-  .copyright{
-    font-size: 4vw;
-    
-  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1025px) {
+
+
+  .flex-container{
+    background-color: rgb(226, 151, 195);
+    box-shadow: 5px 5px 20px rgb(100, 97, 97);
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1.3vw;
+  
+
+}
+
+
   span#instagram{
-    font-size: 4vw;
+    font-size: 2.7vw;
     color:rgb(110, 110, 108);
     margin: 1vw;
   }
 
-
+  span#instagram:hover{
+    color:rgb(238, 91, 226);
+}
 
   span#facebook{
-    font-size: 4vw;
+    font-size: 2.7vw;
     color:rgb(110, 110, 108);
     margin: 1vw;
  
   }
- .fb-like{
-    font-size: 4vw;
- }
- 
- }
- 
- 
+
+  span#facebook:hover{
+    color:rgb(238, 91, 226);
+}
+
+
+
+}
+
+
+
+
  
  
  

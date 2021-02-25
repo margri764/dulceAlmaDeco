@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family:'ribeye';
+  src: url(/assets/font/Ribeye-Regular.ttf);
+   
+}
 
   
   .material-icons {
@@ -66,7 +71,7 @@
 
   .nav-item{
       transition: all 500ms linear;
-
+   
       margin-top: 10px;
   }
 
@@ -79,6 +84,7 @@
  #font .dropdown-menu{
     font-size: 4.5vw;
     width: 68vw;
+    box-shadow: 5px 5px 10px rgb(100, 97, 97); 
  }
 
  .dropdown-item:hover{
@@ -147,6 +153,7 @@
    #font .dropdown-menu{
       font-size: 2.8vw;
       width: 68vw;
+      box-shadow: 5px 5px 10px rgb(100, 97, 97); 
    }
   
    .dropdown-item:hover{
@@ -214,31 +221,38 @@
 
     .navbar{
       box-shadow: 5px 5px 10px rgb(100, 97, 97);
+      margin-top: 2vw;
   
       
     }
     #font .navbar-brand{
       font-family:'ribeye';
-      font-size: 2vw;
+      font-size: 2.8vw;
+      color: coral;
+      font-weight: bold;
    
      
     }
-    
+    .navbar-nav{
+      margin-left: 32vw;
+    }
   
     .nav-item{
-      
-        margin-top: 10px;
+     
+         margin-top: 10px;
     }
   
     #font .nav-item{
       font-family:'ribeye';
       font-size: 2vw;
+      margin-top: 0.93vw;
       
   }
   
    #font .dropdown-menu{
       font-size: 2vw;
       width: 30vw;
+      box-shadow: 5px 5px 10px rgb(100, 97, 97); 
    }
   
    .dropdown-item:hover{
@@ -277,7 +291,7 @@
   
   #font .navbar-brand{
     font-family:'ribeye';
-    font-size: 1.6vw;
+    font-size: 2vw;
  
    
   }
@@ -285,7 +299,8 @@
 
 #font .nav-item{
 font-family:'ribeye';
-font-size: 1.6vw;
+font-size: 1.8vw;
+margin-top: 0.5vw;
 }
 
 
@@ -295,6 +310,7 @@ font-size: 1.6vw;
   font-family:'ribeye';
   font-size: 1.6vw;
   width: 30vw;
+  box-shadow: 5px 5px 10px rgb(100, 97, 97); 
 }
 
 

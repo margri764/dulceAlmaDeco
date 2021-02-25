@@ -1,0 +1,142 @@
+@font-face {
+    font-family:'ribeye';
+    src: url(/assets/font/Ribeye-Regular.ttf);
+     
+  }
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 574px) {
+    
+    .flex-container{
+        padding: 1vw;
+    }
+
+   .title h1{
+
+        font-family: 'ribeye';
+        font-size: 6vw;
+        margin-top: 10vw;
+        margin-bottom: 4vw;
+        text-align: center;
+        
+   }
+
+    p{
+        font-family: 'ribeye';
+        font-size: 4vw;
+        margin-top: 10vw;
+        margin-bottom: 4vw;
+        text-align:start;
+   }
+
+
+   img{
+       width: 99vw;
+   }
+
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 575px)and  (max-width: 768px) {
+         
+    .flex-container{
+        padding: 1vw;
+    }
+
+   .title h1{
+
+        font-family: 'ribeye';
+        font-size: 2.5vw;
+        margin-top: 6vw;
+        margin-bottom: 2vw;
+        text-align: center;
+        
+   }
+
+    p{
+        font-family: 'ribeye';
+        font-size: 2.5vw;
+        margin-top: 6vw;
+        margin-bottom: 2vw;
+        text-align:start;
+   }
+
+
+   img{
+       width: 97vw;
+   }
+   
+  
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 769px)and (max-width: 1024px){
+  
+    .flex-container{
+        padding: 1vw;
+    }
+
+   .title h1{
+
+        font-family: 'ribeye';
+        font-size: 2.5vw;
+        margin-top: 4vw;
+        text-align: center;
+        
+   }
+
+    p{
+        font-family: 'ribeye';
+        font-size: 1.6vw;
+        margin-top: 4vw;
+        margin-bottom: 5vw;
+        text-align:start;
+   }
+
+
+   img{
+       width: 97vw;
+   }
+    
+  
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1025px) {
+  
+    .flex-container{
+        padding: 1vw;
+    }
+
+   .title h1{
+
+        font-family: 'ribeye';
+        font-size: 2.5vw;
+        margin-top: 10vw;
+        margin-bottom: 4vw;
+        text-align: center;
+        
+   }
+
+    p{
+        font-family: 'ribeye';
+        font-size: 1.6vw;
+        margin-top: 6vw;
+        margin-bottom: 2vw;
+        text-align:start;
+   }
+
+
+   img{
+       width: 97vw;
+   }
+
+    
+    
+  
+  }
+  
+  
+  
+  

@@ -9,10 +9,10 @@ import {
   ViewChild 
 } from '@angular/core';
 
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { Cart } from 'src/app/model/cart.model';
 import { ServarrayfotosService } from 'src/app/servicios/servarrayfotos.service';
-// import { navmdb } from '../../../../node_modules/bootstrap'
+import { filter } from 'rxjs/operators';
 
 
 @Component({
@@ -24,35 +24,16 @@ export class NavbarComponent implements OnInit {
 
  
   numero: any;
+  navbarOpen:boolean;
 
-  // @HostBinding ('attr.data-toggle)') private isHovering: boolean=false;
-
-  @ViewChild('colapsar') colapsar: ElementRef;
   
-  @HostListener('click') OnClick(){
-    let test= this.colapsar.nativeElement.querySelector('.navbar-toggler')
-    // this.rendered.setAttribute(test,'data-toggle','')
-  
-
-      // this.isHovering= true;
-    
-    console.log("test")
-
-  }
-  // @ViewChild('navbarid') private navbaridRef: navmdb;
-  
-  // onClick(event): void {
-  // if (this.navbaridRef.shown) {
-  // this.navbaridRef.toggle(event);
-  // }
-  // console.log('test')
-  // }
 
   constructor( private ruta : ActivatedRoute,
                public cart : Cart,
                private servicio : ServarrayfotosService,
                private rendered : Renderer2,
-               private element : ElementRef
+               private element : ElementRef,
+               private router: Router
 
              
              )
@@ -81,8 +62,20 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(    ): void {
 
+    this.router.events
+    .pipe(filter(evt => evt instanceof NavigationEnd))  
+    .subscribe((evt: NavigationEnd) => {
+      this.navbarOpen = false;
+    });
   }
+
+  toggleNavbar() {
+    this.navbarOpen = !this.navbarOpen;
  
+ }
+}
+  
  
 
-}
+
+
