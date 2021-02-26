@@ -37,15 +37,17 @@
 <!-- ------------------------------------------------------------------------------------ -->
 
 
-<div class="flex-container d-flex flex-column justify-content-around flex-md-column flex-lg-row flex-xl-row" id="font">
+<div class="flex-container d-flex  justify-content-around" >
 
 
     <figure class="snip0015">
       <img [src]="arrProductos['img']" alt="" >
       <figcaption>
-        <h2>{{arrProductos['nombre']}} <p><span>MEDIDAS: 30 x 20 cm </span></p> OBSERVACIONES: Vidrio opcional</h2>
+        <h2>{{arrProductos['nombre']}} </h2>
+        <p><span>MEDIDAS: 30 x 20 cm </span></p> 
+        <p><span>OBSERVACIONES: Vidrio opcional</span></p>
         <p><button class="btn btn-success" routerLink="../../carrito" (click)="addBook(arrProductos)">Agregar al Carrito</button></p>
-        <p>$ {{arrProductos['precio']}}</p>
+        <p class="precio">$ {{arrProductos['precio']}}</p>
 
       </figcaption>			
     </figure>
