@@ -66,6 +66,7 @@ btn{
   .carousel-item{
 
     height: 50vw;
+    margin-top: 1vw;
   
 }
 .container{
@@ -90,12 +91,13 @@ a {
        
   .carousel-item{
 
-    height: 50vw;
+    height: 40vw;
+    margin-top: 0.8vw;
   
 }
 .container{
   font-size: 3.2vw;
-  padding-bottom: 10vw;
+  padding-bottom: 3.8vw;
 }
 
 a {
@@ -115,12 +117,13 @@ a {
 
  .carousel-item{
 
-    height: 50vw;
+    height: 38vw;
+    margin-top: 0.7vw;
   
 }
 .container{
   font-size: 2vw;
-  padding-bottom: 7vw;
+  padding-bottom: 2vw;
 }
 
 a {
@@ -138,7 +141,26 @@ a {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1025px) {
 
+  .carousel-item{
 
+    height: 27vw;
+    margin-top: 0.6vw;
+  
+}
+.container{
+  font-size: 2vw;
+  padding-bottom: 2vw;
+}
+
+a {
+  line-height: 2.2vw;
+  font-size: 2vw;
+  opacity: 0.8;
+  box-shadow: 5px 5px 20px rgb(100, 97, 97);
+
+
+
+}
 
 }
 

@@ -4,6 +4,9 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    padding-left: 0.75vw;
+    padding-right: 0.75vw;
+    padding-top: 1.5vw;
 }
 
 .sticky-header {

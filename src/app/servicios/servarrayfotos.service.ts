@@ -19,40 +19,35 @@ export class ServarrayfotosService {
 {
   id:1,
   nombre: "Masitero c/vidrio",
-  img: "assets/compu.jpg",
+  img: "assets/2.jpg",
   precio:"170"
 },
 {
   id:10,
   nombre: "Fondo moderno",
-  img: "assets/compu.jpg",
+  img: "assets/3.jpg",
   precio:"1700"
 },
 {
   id:2,
   nombre: "Cajon grande",
-  img: "assets/compu.jpg",
+  img: "assets/4.jpg",
   precio:"130"
   },
   {
     id:3,
     nombre: "Cajon frente",
-    img: "assets/compu.jpg",
+    img: "assets/5.jpg",
     precio:"200"
     },
 
     {
       id:4,
       nombre: "Set Matero2",
-      img: "assets/compu.jpg",
+      img: "assets/1.jpg",
       precio:"250"
     },  
-    {  
-    id:5,
-    nombre: "Cajon frente2",
-    img: "assets/compu.jpg",
-    precio:"200"
-    },
+ 
     
     
 ];
