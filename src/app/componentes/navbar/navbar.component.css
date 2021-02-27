@@ -43,7 +43,12 @@
   a{
   text-decoration: none;
   }
+  .navbar{
 
+    width: 99%;
+
+    
+  }
 
 /* ------------------------------------@media------------------------------------- */
 
@@ -61,11 +66,12 @@
     transition: all 500ms linear;
   }
 
-   #font .navbar-brand{
+  .navbar-brand{
     font-family:'ribeye';
     font-size: 4.6vw;
     color: coral;
     font-weight: bold;  
+    text-shadow: 1px 1px 2px rgb(248, 209, 165);
      
     }
    
@@ -134,9 +140,10 @@
       
     }
 
-    #font .navbar-brand{
+     .navbar-brand{
       font-family:'ribeye';
       font-size: 2.8vw;
+      text-shadow: 1px 1px 2px rgb(248, 209, 165);
    
      
     }
@@ -226,14 +233,16 @@
       box-shadow: 5px 5px 10px rgb(100, 97, 97);
       margin-top: 2vw;
       height: 4.5vw;
+   
   
       
     }
-    #font .navbar-brand{
+      .navbar-brand{
       font-family:'ribeye';
       font-size: 2.2vw;
       color: coral;
       font-weight: bold;
+      text-shadow: 1px 1px 2px rgb(248, 209, 165);
    
      
     }
@@ -298,6 +307,7 @@
     font-size: 1.9vw;
     color: coral;
     font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(248, 209, 165);
   }
   .navbar-nav{
     margin-left: 42vw;

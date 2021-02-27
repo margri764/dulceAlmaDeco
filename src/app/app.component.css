@@ -4,8 +4,8 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    padding-left: 0.75vw;
-    padding-right: 0.75vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
     padding-top: 1.5vw;
 }
 

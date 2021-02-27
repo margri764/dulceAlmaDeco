@@ -3,6 +3,10 @@
     src: url(/assets/font/Ribeye-Regular.ttf);
      
   }
+  @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+
+
+
   
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 574px) {
@@ -91,7 +95,7 @@
    }
 
     p{
-        font-family: 'ribeye';
+        font-family: 'Raleway';
         font-size: 1.6vw;
         margin-top: 4vw;
         margin-bottom: 5vw;

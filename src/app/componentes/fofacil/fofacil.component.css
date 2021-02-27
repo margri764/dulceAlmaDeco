@@ -101,6 +101,9 @@
           margin-top: 0px;
   
   }
+  .vermas b{
+    font-size: 3.7vw;
+  }
   
   a{
     text-decoration: none;
@@ -180,7 +183,7 @@
   
   
   .vermas{
-    transform: translate(0px, -15px);      
+    transform: translate(0px, -17px);      
     max-width: 50%;
     background-color:rgb(243, 97, 39);
     margin-top: 0px;
@@ -199,6 +202,9 @@
           opacity: 1;
           margin-top: 0px;
   
+  }
+  .vermas b{
+    font-size: 1.8vw;
   }
   
   a{
@@ -271,13 +277,13 @@
     opacity: 0.8;
     background-color:whitesmoke;
     font-family:'ribeye';
-    font-size: 1.8vw;
+    font-size: 1.6vw;
   
   }
   
   
   .vermas{
-    transform: translate(0px, -13px);      
+    transform: translate(0px, -10px);      
     max-width: 50%;
     background-color:rgb(243, 97, 39);
     margin-top: 0px;
@@ -286,6 +292,9 @@
     opacity: 1;
 
   }   
+  .vermas b{
+    font-size: 1.3vw;
+  }
   
   .vermas:hover{
   
@@ -296,6 +305,7 @@
           margin-top: 0px;
   
   }
+ 
   
   a{
     text-decoration: none;
@@ -400,6 +410,9 @@
           opacity: 1;
           margin-top: 0px;
   
+  }
+  .vermas b{
+    font-size: 1.3vw;
   }
   
   a{

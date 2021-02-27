@@ -5,6 +5,14 @@
   src: url(/assets/font/Ribeye-Regular.ttf);
    
 }
+
+   
+.flex-container{
+  width:99% ;  
+  background-image: linear-gradient(90deg, rgb(248, 148, 206),rgb(238, 177, 213));
+  background-color: rgb(235, 166, 206);
+  box-shadow: 5px 5px 20px rgb(170, 170, 170);
+}
  /* -------------------------------------------@media query------------------------------------ */
  
 
@@ -13,8 +21,8 @@
    
   .flex-container{
     
-    background-color: rgb(235, 166, 206);
-    box-shadow: 5px 5px 20px rgb(100, 97, 97);
+   
+   
     margin-top: 1vw;
     padding: 1vw;
     font-size: 4vw;
@@ -55,8 +63,7 @@
        
 
   .flex-container{
-    background-color: rgb(226, 151, 195);
-    box-shadow: 5px 5px 20px rgb(100, 97, 97);
+
     margin-top: 1vw;
     padding: 1vw;
     font-size: 2.3vw;
@@ -102,8 +109,7 @@
 @media only screen and (min-width: 769px)and (max-width: 1024px){
 
   .flex-container{
-    background-color: rgb(226, 151, 195);
-    box-shadow: 5px 5px 20px rgb(100, 97, 97);
+
     margin-top: 1vw;
     padding: 1vw;
     font-size: 1.6vw;
@@ -155,8 +161,7 @@ a{
 
 
   .flex-container{
-    background-color: rgb(226, 151, 195);
-    box-shadow: 5px 5px 20px rgb(100, 97, 97);
+ 
     margin-top: 1vw;
     padding: 1vw;
     font-size: 1.3vw;
