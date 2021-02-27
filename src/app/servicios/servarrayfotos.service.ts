@@ -44,9 +44,15 @@ export class ServarrayfotosService {
     {
       id:4,
       nombre: "Set Matero2",
-      img: "assets/1.jpg",
+      img: "assets/6.jpg",
       precio:"250"
     },  
+    {
+      id:4,
+      nombre: "Set Matero2",
+      img: "assets/7.jpg",
+      precio:"250"
+    }, 
  
     
     

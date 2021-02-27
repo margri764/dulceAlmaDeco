@@ -141,14 +141,15 @@
   /* -------------------------------------------@media query------------------------------------ */
  
 
-@media only screen and (max-width: 573px){
+@media only screen and (max-width: 574px){
   
 
   
  
  .container{
     flex-direction: column;
-    margin-top: 10vw;
+    margin-top: 4vw;
+ 
     }
 
 .title{
@@ -192,16 +193,15 @@ span#envelope{
 }
 
  .div-img {
-  width: 93vw;
-  /* margin-bottom: 50vw; */
-  margin-top: 10vw;
+    width: 93vw;  
+    margin-top: 10vw;
  
 }
 
 .div-img:hover .text {
- transform: translate(0px, -8vw);
- opacity: 0.7;
- background-color:whitesmoke;
+    transform: translate(0px, -8vw);
+    opacity: 0.7;
+    background-color:whitesmoke;
 
 
 }
@@ -209,15 +209,20 @@ span#envelope{
 
  .div-img .text {
  
-  height: 8vw;
+    height: 8vw;
   
 }
  .div-img .text .vermas{
-  font-size: 3vw;         
-  line-height: 8vw;
-  max-width: 40vw;
+    font-size: 3vw;         
+    line-height: 8vw;
+    max-width: 40vw;
 
 }   
+.pictures img{ 
+  width: 97%;
+  flex-direction: column; 
+  margin-top: 18vw;
+}
 
 
   
@@ -230,7 +235,7 @@ span#envelope{
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 574px)and (max-width: 768px){
+@media only screen and (min-width: 575px)and (max-width: 768px){
 
 
 
@@ -241,48 +246,47 @@ span#envelope{
  }
 
  .title{
-  line-height: 4vw;
+    line-height: 4vw;
 }
 
 
 .title p#a{
-  font-family:'ribeye';
-  font-size: 3.5vw;
-  color: rgb(255, 80, 182);
+    font-family:'ribeye';
+    font-size: 3.5vw;
+    color: rgb(255, 80, 182);
 
 }
 .title p {
-  font-family:'ribeye';
-  font-size: 2vw;
-  color:  black
+    font-family:'ribeye';
+    font-size: 2vw;
+    color:  black
 
 }
 
 span#map{
-  font-size: 4vw;
-  margin-right: 2vw;
-  color: rgb(255, 80, 182);
+    font-size: 4vw;
+    margin-right: 2vw;
+    color: rgb(255, 80, 182);
 
 
 }
 span#whatsapp {
  
-  font-size: 2vw;
-  margin-right: 2vw;
-  color:rgb(92, 235, 74);
+    font-size: 2vw;
+    margin-right: 2vw;
+    color:rgb(92, 235, 74);
 } 
 
 
 span#envelope{
-  font-size: 5vw;
-  margin-right: 2vw;
-  color: rgb(255, 80, 182);
+    font-size: 5vw;
+    margin-right: 2vw;
+    color: rgb(255, 80, 182);
 
 }
 
  .div-img {
   width: 50vw;
-  /* margin-bottom: 20vw; */
  
 }
 
@@ -292,16 +296,16 @@ span#envelope{
   
 }
 .div-img:hover .text {
- transform: translate(0px, -6vw);
- opacity: 0.7;
- background-color:whitesmoke;
+  transform: translate(0px, -6vw);
+  opacity: 0.7;
+  background-color:whitesmoke;
 
 
 }
 
 
 
- .div-img .text .vermas{
+.div-img .text .vermas{
            
   line-height: 6vw;
 
@@ -317,24 +321,28 @@ span#envelope{
 
   .container{
  
-    margin-top: 10vw;
+    margin-top: 5vw;
+
  }
 
  .title{
-  line-height: 6vw;
+    line-height: 5vw;
+  
 }
 
 
 .title p#a{
   font-family:'ribeye';
-  font-size: 3vw;
+  font-size: 2.6vw;
   color: rgb(255, 80, 182);
+  margin-bottom: 5vw;
 
 }
-.title p {
+.title {
   font-family:'ribeye';
-  font-size: 2vw;
-  color:  black
+  font-size: 1.6vw;
+  color:  black;
+  margin-top: 1vw;
 
 }
 
@@ -362,17 +370,12 @@ span#envelope{
 }
   
   .div-img {
-    width: 50vw;
-
-   
+    width: 46vw;   
  }
-  .div-img .text .vermas{
-           
+  .div-img .text .vermas{           
     max-width: 30vw;  
-    line-height: 5vw;
-  
-  }   
-  
+    line-height: 5vw;  
+  }     
  
 
   .div-img .text {   
@@ -383,9 +386,8 @@ span#envelope{
     transform: translate(0px, -5vw);  
   }
 
-  .pictures img{
-    width: 49%;
- 
+  .pictures img{ 
+    width: 48%; 
   }
 
 
@@ -403,28 +405,28 @@ span#envelope{
  }
 
  .title{
-  line-height: 3.8vw;
+    line-height: 3.8vw;
  }
 
 span#map{
-  font-size: 5vw;
-  margin-right: 2vw;
-  color: rgb(255, 80, 182);
+    font-size: 5vw;
+    margin-right: 2vw;
+    color: rgb(255, 80, 182);
 
 
 }
 span#whatsapp {
  
-  font-size: 2vw;
-  margin-right: 2vw;
-  color:rgb(92, 235, 74);
+    font-size: 2vw;
+    margin-right: 2vw;
+    color:rgb(92, 235, 74);
 } 
 
 
 span#envelope{
-  font-size: 5vw;
-  margin-right: 2vw;
-  color: rgb(255, 80, 182);
+    font-size: 5vw;
+    margin-right: 2vw;
+    color: rgb(255, 80, 182);
 
 }
 
@@ -445,7 +447,6 @@ span#envelope{
 
   .div-img {
     width: 40vw;
-    /* margin-bottom: 10px; */
    
  }
 
@@ -482,6 +483,10 @@ span#envelope{
     
   
   }
+  .pictures img{ 
+    width: 48%; 
+  }
+
 
 }
 

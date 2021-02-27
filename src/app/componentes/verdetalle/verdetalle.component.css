@@ -116,7 +116,13 @@
          transition-delay: 0s;
        }
 
-
+       .buy{
+        background-image: linear-gradient(30deg,rgb(9, 145, 9) ,rgb(44, 138, 44));
+        font-family:'Raleway' ;
+        font-size: 1.7vw;
+        line-height: 2.6vw;
+        box-shadow: 3px 3px 7px rgb(2, 63, 12);
+        }
 
 
 
@@ -229,6 +235,7 @@
         bottom: 8vw;
   
       }
+  
 
        
     

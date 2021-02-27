@@ -1,3 +1,8 @@
+@font-face {
+  font-family:'ribeye';
+  src: url(/assets/font/Ribeye-Regular.ttf);
+   
+}
 
 
  .material-icons {
@@ -27,42 +32,30 @@
 .material-icons:hover{
 
     color:red;
+   
   
 }
 
+.carrito {
 
-@font-face {
-  font-family:'ribeye';
-  src: url(/assets/font/Ribeye-Regular.ttf);
-   
-}
-
-#font{
-  font-family:'ribeye';
-  font-size: 3vh;
-}
-
- #font h2{
-  font-size: 3vh;
-}
-
-#carrito{
-
-  background-color: darkorange;
+  
+  background-image: linear-gradient(90deg, darkorange, rgb(243, 180, 104));
   width: 100%;
-  height: 10vh;
-  text-align: center;
-   
-}
-h6 {
-  font-size: 5vh;
-  font-family:'ribeye';
+  height: 25vw; 
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  text-shadow: 1px 1px 2px rgb(219, 219, 219); 
+  font-family: 'ribeye';
+  color: white;
+  box-shadow: 2px 2px 4px rgb(134, 110, 81);
 }
 
-h2{
-  font-family:'ribeye';
-  font-size: 3vh;
+.font{
+  font-family: 'ribeye';
 }
+
+
 
 input{
         width: 7vh; 
@@ -71,12 +64,35 @@ input{
         border-color:rgb(255, 255, 254);
 }
 
+.precio b{
+  font-family: 'ribeye';
+  font-size: 3.7vw;
+}
+
+.row.font{
+  font-size: 2vw;
+}
+
 img{
 
   
   width: 100%;
 }
 
+.keepbuy{
+  background-image: linear-gradient(30deg, rgb(17, 0, 255),rgb(114, 104, 255));
+  font-family: 'ribeye';
+  font-size: 5vw;
+  line-height: 3vw;
+  box-shadow: 3px 3px 7px rgb(108, 108, 150);
+}
+.buy{
+  background-image: linear-gradient(30deg,rgb(9, 145, 9) ,rgb(44, 138, 44));
+  font-family:'ribeye' ;
+  font-size: 1.7vw;
+  line-height: 2.6vw;
+  box-shadow: 3px 3px 7px rgb(2, 63, 12);
+}
 /* ---------------------------------------@media------------------------------------------ */
 
 
@@ -93,13 +109,39 @@ img{
   line-height: 1;
  }
 
- #font{
-  font-family:'ribeye';
-  font-size: 3.5vw;
+ .carrito {
+   font-size: 5.2vw;  
+   height: 10vw; 
+ 
+  
+}
+.font{
+  font-size: 4.5vw;
+  
 }
 
-h6{
+h2{
+  font-family: 'ribeye';
   font-size: 4vw;
+}
+.keepbuy{
+
+  font-size: 3.6vw;
+ 
+}
+.buy{
+  font-size: 3.6vw;
+  line-height: 3.6vw;
+}
+
+.row.font{
+  font-size: 4vw;
+}
+
+input{
+ 
+  font-size: 2.6vh;
+
 }
 
 }
@@ -109,51 +151,86 @@ h6{
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 575px) and (max-width: 768px) {
 
-    #font{
-      font-family:'ribeye';
-      font-size: 2vw;
-    }
-  h6{
-    font-size: 4vw;
-
-  }
-
+    .material-icons {
   
+      font-size: 30px;  /* Preferred icon size */
+      
+      line-height: 1;
+     }
+    
+     .carrito {
+       font-size: 4.5vw;  
+       height: 9vw; 
+     
+      
+    }
+    .font{
+      font-size: 3.7vw;
+      
+    }
+    
+   
+    .keepbuy{
+    
+      font-size: 3.2vw;
+     
+    }
+    .precio b{
+  
+      font-size: 3vw;
+    }
 
-  input{
-    width: 6vw; 
-    font-family:'ribeye';
-    font-size: 2.5vw;
-    border-color:rgb(255, 255, 254);
-}
+    .buy{
+      font-size: 3.2vw;
+      line-height: 2.6vw;
+    }
+    .row.font{
+      font-size: 3vw;
+    }
+   
 
   }
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 769px) and (min-width: 1024px){
 
-    #font{
-      font-family:'ribeye';
+
+    .material-icons {
+  
+      font-size: 30px;  /* Preferred icon size */
+      
+      line-height: 1;
+     }
+    
+     .carrito {
+       font-size: 2.9vw;  
+       height: 7vw; 
+     
+      
+    }
+    .font{
+      font-size: 2.1vw;
+      
+    }
+    
+
+    .keepbuy{
+    
+      font-size: 1.7vw;
+      line-height: 2.6vw;
+     
+    }
+    .buy{
+      font-size: 1.7vw;
+      line-height: 2.6vw;
+    }
+    .precio b{
+  
+      font-size: 1.6vw;
+    }
+    .row.font{
       font-size: 2vw;
     }
-  h6{
-    font-size: 3.5vw;
-
-  }
-
-  input{
-    width: 12vw; 
-    font-family:'ribeye';
-    font-size: 4vw;
-    border-color:rgb(255, 255, 254);
-  }
-
-  input{
-    width: 6vw; 
-    font-family:'ribeye';
-    font-size: 2.5vw;
-    border-color:rgb(255, 255, 254);
-}
 
   
   }
@@ -161,5 +238,41 @@ h6{
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1025px) {
    
+    .material-icons {
   
+      font-size: 30px;  /* Preferred icon size */
+      
+      line-height: 1;
+     }
+    
+     .carrito {
+       font-size: 2.6vw;  
+       height: 5.5vw; 
+     
+      
+    }
+    .font{
+      font-size: 2vw;
+      
+    }
+    
+
+    .keepbuy{
+    
+      font-size: 1.7vw;
+      line-height: 2.6vw;
+     
+    }
+    .buy{
+      font-size: 1.7vw;
+      line-height: 2.6vw;
+    }
+    .precio b{
+  
+      font-size: 1.6vw;
+    }
+    .row.font{
+      font-size: 2vw;
+    }
+
   }
