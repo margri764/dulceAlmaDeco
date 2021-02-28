@@ -9,12 +9,7 @@
 
 
 
-.carousel {
 
-    width: 99%;
-    padding: 1px;
-    
-    }
     
     .carousel-item{
     
@@ -57,10 +52,7 @@
         
       
     }
-    .container{
-      font-size: 4vw;
-    
-    }
+  
     
   
     
@@ -87,10 +79,7 @@
         height: 9vw;
       
     }
-    .container{
-      font-size: 3.2vw;
-      padding-bottom: 10vw;
-    }
+ 
     
     a {
       line-height: 1vw;
@@ -112,10 +101,7 @@
         height: 8vw;
       
     }
-    .container{
-      font-size: 2vw;
-      padding-bottom: 7vw;
-    }
+  
     
     a {
       line-height: 2.2vw;

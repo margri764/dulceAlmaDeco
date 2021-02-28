@@ -10,12 +10,13 @@
   .form_wrap{
     width: 90vw;
     height: 100vh;  
+    margin-top: 5vw;
     display: flex;
-    justify-content: center; 
     background: #fff;
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0px 0px 30px rgba(5, 5, 5, 0.2);
+
 }
   
   /* ======================Informacion de Contacto==============*/
@@ -138,7 +139,22 @@
   }
   
  
+  .enviar{
+    background-image: linear-gradient(30deg,rgb(9, 145, 9) ,rgb(44, 138, 44));
+    font-family:'Raleway' ;
+    font-size: 3vw;
+    line-height: 3vw;
+    box-shadow: 3px 3px 7px rgb(2, 63, 12);
+    }
 
+    .volver{
+      background-image: linear-gradient(30deg, rgb(17, 0, 255),rgb(114, 104, 255));
+      font-family: 'Raleway';
+      font-size: 3vw;
+      line-height: 3vw;
+      box-shadow: 3px 3px 7px rgb(108, 108, 150);
+      margin-left: 2vw;
+    }
 
 
 
@@ -150,7 +166,7 @@
         .form_wrap{
             width: 95vw;
             height:88%;       
-            margin-left: 1.8vw;
+            margin-left:0.7vw;
         }
 
          /* ===================================CONTACTO========================================== */
@@ -208,7 +224,20 @@
             margin-top: 5vw;
         }
         
+        .enviar{
         
+          font-size: 3.7vw;
+          line-height: 3.2vw;
+      
+          }
+          
+          .volver{
+        
+            font-size: 3.7vw;
+            line-height: 3.2vw;
+            margin-left: 3vw;
+        
+          }
        
     }  
        
@@ -222,8 +251,8 @@
     
         .form_wrap{
             width: 95vw;
-            height:80%;       
-            margin-left: 2vw;
+            height:82%;       
+            margin-left: 0.5vw;
         }
 
          /* ===================================CONTACTO========================================== */
@@ -269,6 +298,19 @@
             color: white;
           
           }  
+          .enviar{
+        
+            font-size: 2.7vw;
+            line-height: 3vw;
+        
+            }
+            
+            .volver{
+          
+              font-size: 2.7vw;
+              line-height: 3vw;
+          
+            }
        
     }  
        
@@ -281,7 +323,7 @@
         .form_wrap{
             width: 95vw;
             height:80%;       
-            margin-left: 2vw;
+            margin-left: 0.4vw;
         }
 
          /* ===================================CONTACTO========================================== */
@@ -328,6 +370,19 @@
           
           }  
 
+          .enviar{
+        
+            font-size: 1.7vw;
+            line-height: 2.5vw;
+        
+            }
+            
+            .volver{
+          
+              font-size: 1.7vw;
+              line-height: 2.5vw;
+          
+            }
 
      
     
@@ -338,8 +393,8 @@
 
         .form_wrap{
             width: 95vw;
-            height:70%;       
-            margin-left: 2vw;
+            height:73%;       
+            margin-left: 0.4vw;
         }
 
          /* ===================================CONTACTO========================================== */
@@ -386,7 +441,19 @@
           
           }  
 
-
+          .enviar{
+        
+            font-size: 1.3vw;
+            line-height: 2.5vw;
+        
+            }
+            
+            .volver{
+          
+              font-size: 1.3vw;
+              line-height: 2.5vw;
+          
+            }
      
        
     }

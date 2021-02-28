@@ -8,7 +8,8 @@
 
    
 .flex-container{
-  width:99% ;  
+
+  height: 7vw;
   background-image: linear-gradient(90deg, rgb(248, 148, 206),rgb(238, 177, 213));
   background-color: rgb(235, 166, 206);
   box-shadow: 5px 5px 20px rgb(170, 170, 170);
@@ -20,18 +21,22 @@
  
    
   .flex-container{
-    
-   
-   
+         
     margin-top: 1vw;
     padding: 1vw;
-    font-size: 4vw;
+    font-size: 3.8vw;
     height: 15vw;
+    
+ 
   
 
   }
+
+
+
   .justificar{
     justify-content: space-between;
+
   }
 
   span#instagram{
@@ -111,7 +116,7 @@
   .flex-container{
 
     margin-top: 1vw;
-    padding: 1vw;
+   
     font-size: 1.6vw;
   
 

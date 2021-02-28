@@ -43,9 +43,12 @@
   a{
   text-decoration: none;
   }
+  
+ 
+
   .navbar{
 
-    width: 99%;
+    box-shadow: 5px 5px 10px rgb(100, 97, 97);
 
     
   }
@@ -56,12 +59,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 574px) {
   
-  .navbar{
-    box-shadow: 5px 5px 10px rgb(100, 97, 97);
- 
 
-    
-  }
   .navbar-collapse{
     transition: all 500ms linear;
   }
@@ -134,11 +132,7 @@
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 575px) and (max-width: 768px) {
   
-    .navbar{
-      box-shadow: 5px 5px 10px rgb(100, 97, 97);
-  
-      
-    }
+ 
 
      .navbar-brand{
       font-family:'ribeye';
@@ -230,7 +224,7 @@
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     .navbar{
-      box-shadow: 5px 5px 10px rgb(100, 97, 97);
+ 
       margin-top: 2vw;
       height: 4.5vw;
    
@@ -297,7 +291,7 @@
 @media only screen and (min-width: 1025px) {
   
   .navbar{
-    box-shadow: 5px 5px 10px rgb(100, 97, 97);
+  
     height: 3.2vw;
        
   }
