@@ -47,11 +47,21 @@
  
 
   .navbar{
-
-    box-shadow: 5px 5px 10px rgb(100, 97, 97);
+  
+      margin-top: 2vw;
+      height: 4.5vw;      
+      box-shadow: 5px 5px 10px rgb(100, 97, 97);
 
     
   }
+  .navbar-brand{
+    font-family:'ribeye';
+    font-size: 4.6vw;
+    color: coral;
+    font-weight: bold;  
+    text-shadow: 1px 1px 2px rgb(248, 209, 165);
+     
+    }
 
 /* ------------------------------------@media------------------------------------- */
 
@@ -59,17 +69,18 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 574px) {
   
+.navbar{
+  margin-top: 1vw;
+  height: 14vw;
 
+}
   .navbar-collapse{
     transition: all 500ms linear;
   }
 
   .navbar-brand{
-    font-family:'ribeye';
+  
     font-size: 4.6vw;
-    color: coral;
-    font-weight: bold;  
-    text-shadow: 1px 1px 2px rgb(248, 209, 165);
      
     }
    
@@ -132,12 +143,16 @@
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 575px) and (max-width: 768px) {
   
- 
+    .navbar{
+      margin-top: 1vw;
+      height: 8vw;
+    
+    }
 
      .navbar-brand{
-      font-family:'ribeye';
+  
       font-size: 2.8vw;
-      text-shadow: 1px 1px 2px rgb(248, 209, 165);
+     
    
      
     }
@@ -221,22 +236,20 @@
   }
   
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
     .navbar{
  
       margin-top: 2vw;
-      height: 4.5vw;
+      height: 4.3vw;
    
   
       
     }
       .navbar-brand{
-      font-family:'ribeye';
+
       font-size: 2.2vw;
-      color: coral;
-      font-weight: bold;
-      text-shadow: 1px 1px 2px rgb(248, 209, 165);
+  
    
      
     }
@@ -292,16 +305,15 @@
   
   .navbar{
   
-    height: 3.2vw;
+    height: 4vw;
+    margin-top: 0.5vw;
        
   }
   
   .navbar-brand{
-    font-family:'ribeye';
+
     font-size: 1.9vw;
-    color: coral;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px rgb(248, 209, 165);
+
   }
   .navbar-nav{
     margin-left: 42vw;
