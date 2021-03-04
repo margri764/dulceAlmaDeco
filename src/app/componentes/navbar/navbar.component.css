@@ -72,8 +72,11 @@
 .navbar{
   margin-top: 1vw;
   height: 14vw;
-
 }
+  .navbar-collapse{
+    transition: all 500ms linear;
+  
+  }
 
   .navbar-brand{
   
