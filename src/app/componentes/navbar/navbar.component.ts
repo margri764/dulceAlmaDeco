@@ -2,11 +2,9 @@
 import { 
   Component, 
   ElementRef, 
-  HostBinding, 
-  HostListener, 
   OnInit, 
   Renderer2, 
-  ViewChild 
+
 } from '@angular/core';
 
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
@@ -43,18 +41,10 @@ export class NavbarComponent implements OnInit {
           
                 this.numero=servicio.itemsProductos()
                
-      
-                          
+                               
              });
 
-            //  const navLinks = document.querySelectorAll('.nav-item')
-            //  const menuToggle = document.getElementById('navbarSupportedContent')
-            //  const bsCollapse = new.navmdb.Collapse(menuToggle)
-            //  navLinks.forEach((l) => {
-            //      l.addEventListener('click', () => { bsCollapse.toggle() })
-            //  })
-           
-            
+                  
             }
           
           

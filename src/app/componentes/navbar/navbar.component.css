@@ -74,9 +74,9 @@
   height: 14vw;
 
 }
-  .navbar-collapse{
-    transition: all 500ms linear;
-  }
+.navbar-toggler{
+  z-index: 0;
+}
 
   .navbar-brand{
   
@@ -88,8 +88,7 @@
   
 
   .nav-item{
-      transition: all 500ms linear;
-   
+     
       margin-top: 10px;
   }
 
@@ -103,6 +102,7 @@
     font-size: 4.5vw;
     width: 68vw;
     box-shadow: 5px 5px 10px rgb(100, 97, 97); 
+
  }
 
  .dropdown-item:hover{
